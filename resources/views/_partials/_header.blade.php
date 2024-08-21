@@ -7,18 +7,21 @@
                         <div class="topbar-text d-none d-md-block d-lg-block">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="tell:888-1234567"><span class="fas fa-phone mr-2"></span> 24x7 Technical Support 888-1234567</a>
+                                    <a href="tell:888-1234567"><span class="fas fa-phone mr-2"></span>Disponible 24h/24 +225 05 65 28 29 62</a>
                                 </li>
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-comments mr-2"></span> Live
-                                        Chat</a></li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <span class="fas fa-comments mr-2"></span>Chat en direct
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <div class="topbar-text">
                             <ul class="list-inline text-right">
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-user mr-2"></span> Login</a></li>
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-lock mr-2"></span> Register</a>
+                                <li class="list-inline-item"><a href="#"><span class="fas fa-user mr-2"></span> Connexion</a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fas fa-lock mr-2"></span> Inscription</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,7 +37,7 @@
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
 
                     <!--logo start-->
-                    <a class="navbar-brand" href="index.html"><img src="{{ asset('lifesport/assets/img/logo-color.png') }}" width="120" alt="logo" class="img-fluid" /></a>
+                    <a class="navbar-brand" href="{{ route('index') }}"><img src="{{ asset('lifesport/assets/img/logo/logo-circle.png') }}" width="80" alt="logo" class="img-fluid logo"/></a>
                     <!--logo end-->
 
                     <!--responsive toggle button start-->

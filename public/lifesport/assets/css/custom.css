@@ -1,0 +1,10 @@
+.img-fluid.logo{
+    border: 1px solid #d5650f;
+    border-radius:60px;
+    padding: 5px;
+}
+
+
+.img-fluid.preload{
+    width: 110px;
+}

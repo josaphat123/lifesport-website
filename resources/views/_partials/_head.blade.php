@@ -17,7 +17,7 @@
     <meta property="og:type" content="article" />
 
     <!--favicon icon-->
-    <link rel="icon" href="{{asset('lifesport/assets/img/favicon.png') }}" type="image/png" sizes="16x16">
+    <link rel="icon" href="{{asset('lifesport/assets/img/favicon/favicon.png') }}" type="image/png" sizes="16x16">
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">

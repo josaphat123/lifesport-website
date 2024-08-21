@@ -129,19 +129,19 @@
                         <div class="payment-method text-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <img src="{{ asset('lifesport/assets/img/payment-amex.svg') }}" alt="amex" width="50" />
+                                    <a target="BLANK" href="https://www.youtube.com/@LIFE__SPORT"><img src="{{ asset('lifesport/assets/img/social-networks/youtube.svg') }}" alt="YouTube" width="55"/></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <img src="{{ asset('lifesport/assets/img/payment-visa.svg') }}" alt="visa" width="50" />
+                                    <a target="_BLANK" href="https://www.tiktok.com/@lifes_sport"><img src="{{ asset('lifesport/assets/img/social-networks/tiktok.svg') }}" alt="TikTok" width="38"/></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <img src="{{ asset('lifesport/assets/img/payment-mastercard.svg') }}" alt="mastercard" width="50" />
+                                    <a target="_BLANK" href="https://www.facebook.com/eLifeSport"><img src="{{ asset('lifesport/assets/img/social-networks/facebook.svg') }}" alt="Facebook" width="35"/></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <img src="{{ asset('lifesport/assets/img/payment-paypal.svg') }}" alt="paypal" width="50" />
+                                    <a target="_BLANK" href="https://www.instagram.com/llife_sport?igsh=MTUwYmZvbms5NDhueQ%3D%3D&utm_source=qr"><img src="{{ asset('lifesport/assets/img/social-networks/instagram.svg') }}" alt="Instagram" width="35"/></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <img src="{{ asset('lifesport/assets/img/payment-bitcoin.svg') }}" alt="bitcoin" width="50" />
+                                    <a target="_BLANK" href="https://www.threads.net/@llife_sport?xmt=AQGzpWum1ro2fG9aW7UZTiaPu1E4ukNoDuLF8jodmfxgAkA"><img src="{{ asset('lifesport/assets/img/social-networks/threads.svg') }}" alt="Threads" width="37"/></a>
                                 </li>
                             </ul>
                         </div>

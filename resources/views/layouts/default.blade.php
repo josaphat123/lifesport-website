@@ -8,11 +8,7 @@
     <!--loader start-->
     <div id="preloader">
         <div class="loader1">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+            <img src="{{ asset('lifesport/assets/img/logo/item-circle.png') }}" alt="logo" class="img-fluid preload"/>
         </div>
     </div>
     <!--loader end-->
@@ -25,7 +21,7 @@
 
     <div class="main">
         
-        @yield('content');
+        @yield('content')
 
     </div>
 

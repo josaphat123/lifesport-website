@@ -1,10 +1,10 @@
 /*================
-Template Name: Hostlar Hosting Provider with WHMCS Template
-Description: All type of web hosting provider or company with WHMCS template.
+Template Name: Lifesport
+Description: LifeSport est une Web TV Sportive et une Entreprise exercice de les domaines de Publicités, Community Management, Placement de produit et Developpement d'applications Web/Mobile
 Version: 1.0
-Author: https://themeforest.net/user/themetags
-=======================*/
-/*!
+Author: https://lifesport.ci
+=======================*/ loader1 preloader
+/*! navbar-brand
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -54059,50 +54059,45 @@ ul.disc-style li {
   display: block;
   position: relative;
   left: 45%;
-  top: 50%;
+  top: 40%;
 }
+
 
 /* line 2634, src/assets/scss/custom/_style.scss */
-.loader1 span {
-  vertical-align: middle;
-  border-radius: 100%;
+.loader1 .img-fluid.preload {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 3px 2px;
-  -webkit-animation: loader1 0.8s linear infinite alternate;
-  animation: loader1 0.8s linear infinite alternate;
+  -webkit-animation: loader1 3s linear infinite alternate;
+  animation: loader1 3s linear infinite alternate;
 }
 
-/* line 2646, src/assets/scss/custom/_style.scss */
+/* line 2646, src/assets/scss/custom/_style.scss 
 .loader1 span:nth-child(1) {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
   background: rgba(41, 103, 230, 0.6);
 }
 
-/* line 2652, src/assets/scss/custom/_style.scss */
 .loader1 span:nth-child(2) {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
   background: rgba(41, 103, 230, 0.8);
 }
 
-/* line 2658, src/assets/scss/custom/_style.scss */
+
 .loader1 span:nth-child(3) {
   -webkit-animation-delay: -0.26666s;
   animation-delay: -0.26666s;
   background: #2967e6;
 }
 
-/* line 2664, src/assets/scss/custom/_style.scss */
+
 .loader1 span:nth-child(4) {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
   background: rgba(41, 103, 230, 0.8);
 }
 
-/* line 2671, src/assets/scss/custom/_style.scss */
+
 .loader1 span:nth-child(5) {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
@@ -54128,6 +54123,7 @@ ul.disc-style li {
     -webkit-transform: scale(1, 1);
   }
 }
+  */
 
 /*=========================================
           18. DOMAIN SEARCH FROM
