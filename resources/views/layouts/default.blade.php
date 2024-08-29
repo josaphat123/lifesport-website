@@ -34,6 +34,7 @@
     <button class="scroll-top scroll-to-target" data-target="html">
         <span class="ti-rocket"></span>
     </button>
+    
     <!--bottom to top button end-->
     <!--build:js-->
     <script src="{{ asset('lifesport/assets/js/vendors/jquery-3.5.1.min.js') }}"></script>

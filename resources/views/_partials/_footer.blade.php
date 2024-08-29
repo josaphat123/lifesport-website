@@ -122,14 +122,14 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
                         <p class="copyright-text pb-0 mb-0">Copyrights © 2024. Tout droits reservés par 
-                            <a href="" target="_blank">LiFeSport</a>
+                            <a href="{{ route('index') }}" target="">LiFeSport</a>
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">
                         <div class="payment-method text-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a target="BLANK" href="https://www.youtube.com/@LIFE__SPORT"><img src="{{ asset('lifesport/assets/img/social-networks/youtube.svg') }}" alt="YouTube" width="55"/></a>
+                                    <a target="_BLANK" href="https://www.youtube.com/@LIFE__SPORT"><img src="{{ asset('lifesport/assets/img/social-networks/youtube.svg') }}" alt="YouTube" width="55"/></a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a target="_BLANK" href="https://www.tiktok.com/@lifes_sport"><img src="{{ asset('lifesport/assets/img/social-networks/tiktok.svg') }}" alt="TikTok" width="38"/></a>
