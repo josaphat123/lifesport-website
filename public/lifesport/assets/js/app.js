@@ -7,7 +7,7 @@
  Author: https://themeforest.net/user/themetags
 =======================*/
 // TABLE OF CONTENTS
-// 1. preloader
+// 1. preloader 
 // 2. mega menu js
 // 3. fixed navbar
 // 4. scroll bottom to top

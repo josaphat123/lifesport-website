@@ -1,6 +1,7 @@
 <header id="header" class="header-main">
+
         <!--topbar start-->
-        <div id="header-top-bar" class="gray-light-bg">
+        {{-- <div id="header-top-bar" class="gray-light-bg">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-md-7 col-lg-7">
@@ -10,7 +11,7 @@
                                     <a href="tell:888-1234567"><span class="fas fa-phone mr-2"></span>Disponible 24h/24 +225 05 65 28 29 62</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a target="_BLANK" href="https://wa.me/message/JWAKAZV73SWIN1">
                                         <span class="fas fa-comments mr-2"></span>Chat en direct
                                     </a>
                                 </li>
@@ -28,16 +29,17 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!--topbar end-->
-
         <!--main header menu start-->
-        <div id="logoAndNav" class="main-header-menu-wrap white-bg border-bottom">
+        <div id="header" class="header-main headroom">            
+            <div id="logoAndNav" class="main-header-menu-wrap bg-transparent">
             <div class="container">
+
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
 
                     <!--logo start-->
-                    <a class="navbar-brand" href="{{ route('index') }}"><img src="{{ asset('lifesport/assets/img/logo/logo-circle.png') }}" width="80" alt="logo" class="img-fluid logo"/></a>
+                    <a class="navbar-brand" href="{{ route('index') }}"><img src="{{ asset('lifesport/assets/img/logo/logo-circle.png') }}" width="65" alt="logo" class="img-fluid logo"/></a>
                     <!--logo end-->
 
                     <!--responsive toggle button start-->
@@ -53,10 +55,10 @@
                         <ul class="navbar-nav ml-auto main-navbar-nav">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">Home</a>
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">Accueil</a>
 
                                 <!--home mega menu start-->
-                                <div class="hs-mega-menu w-100 main-sub-menu" aria-labelledby="homeMegaMenu">
+                                {{-- <div class="hs-mega-menu w-100 main-sub-menu" aria-labelledby="homeMegaMenu">
                                     <div class="row no-gutters">
                                         <div class="col-lg-5">
                                             <!-- Banner Image -->
@@ -72,8 +74,9 @@
                                                             <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee</li>
                                                         </ul>
                                                     </div>
-                                                    <a class="btn primary-solid-btn" href="#">Learn More <span
-                                                            class="fas fa-angle-right ml-2"></span></a>
+                                                    <a class="btn primary-solid-btn" href="#">Learn More
+                                                        <span class="fas fa-angle-right ml-2"></span>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <!-- End Banner Image -->
@@ -97,13 +100,13 @@
                                                 </div>
 
                                                 <div class="col-md-6">
-                                                    <ul class="sub-menu-nav-group mb-3">
-                                                        <li><a class="nav-link sub-menu-nav-link" href="index-offer.html">Home Offer</a></li>
-                                                        <li><a class="nav-link sub-menu-nav-link" href="index-slider.html">Home Slider</a>
-                                                        </li>
-                                                        <li><a class="nav-link sub-menu-nav-link" href="index-content-slider.html">Home Content Slider</a></li>
-                                                        <li><a class="nav-link sub-menu-nav-link" href="index-reseller-hosting.html">Reseller Demo <span class="badge badge-success ml-2">New</span></a></li>
-                                                    </ul>
+                                                        <ul class="sub-menu-nav-group mb-3">
+                                                            <li><a class="nav-link sub-menu-nav-link" href="index-offer.html">Home Offer</a></li>
+                                                            <li><a class="nav-link sub-menu-nav-link" href="index-slider.html">Home Slider</a>
+                                                            </li>
+                                                            <li><a class="nav-link sub-menu-nav-link" href="index-content-slider.html">Home Content Slider</a></li>
+                                                            <li><a class="nav-link sub-menu-nav-link" href="index-reseller-hosting.html">Reseller Demo <span class="badge badge-success ml-2">New</span></a></li>
+                                                        </ul>
 
                                                     <span class="sub-menu-title">RTL Demo</span>
                                                     <ul class="sub-menu-nav-group mb-3">
@@ -114,17 +117,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <!--home mega menu end-->
                             </li>
                             <!--home end-->
 
                             <!--pages start-->
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Actu-Foot</a>
 
                                 <!-- Pages - Submenu -->
-                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
+                                {{-- <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <li class="nav-item submenu-item">
                                         <a class="nav-link sub-menu-nav-link" href="about-us.html">About Us</a>
                                     </li>
@@ -207,7 +210,7 @@
                                         </ul>
                                     </li>
                                     <!-- Specialty -->
-                                </ul>
+                                </ul> --}}
                                 <!-- End Pages - Submenu -->
                             </li>
                             <!--pages end-->
@@ -215,7 +218,7 @@
 
                             <!--hosting start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="720px" data-position="right">
-                                <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
+                                <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Nos Services</a>
 
                                 <!-- Demos - Mega Menu -->
                                 <div class="hs-mega-menu w-100 main-sub-menu" aria-labelledby="hostingMegaMenu">
@@ -349,7 +352,7 @@
 
                             <!--elements start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="600px" data-position="right">
-                                <a id="elementsMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Elements</a>
+                                <a id="elementsMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Social Média</a>
                                 <!--services mega menu start-->
                                 <div class="hs-mega-menu main-sub-menu u-header__mega-menu-position-right-fix--md" aria-labelledby="elementsMegaMenu">
                                     <div class="mega-menu-wrap">
@@ -401,9 +404,9 @@
 
                             <!--support start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="360px" data-position="right">
-                                <a id="supportMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Support</a>
+                                <a id="supportMegaMenu" class="nav-link custom-nav-link" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Qui Sommes-Nous ?</a>
                                 <!--support submenu start-->
-                                <div class="hs-mega-menu main-sub-menu" aria-labelledby="supportMegaMenu" style="min-width: 330px;">
+                                {{-- <div class="hs-mega-menu main-sub-menu" aria-labelledby="supportMegaMenu" style="min-width: 330px;">
 
                                     <!--menu title with subtitle and icon item start-->
                                     <div class="title-with-icon-item">
@@ -484,17 +487,17 @@
                                         <!-- End List -->
                                     </div>
                                     <!--submenu footer end-->
-                                </div>
+                                </div> --}}
                                 <!--support submenu end-->
                             </li>
                             <!--support end-->
 
                             <!--about start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <a id="aboutMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">About</a>
+                                <a id="aboutMegaMenu" class="nav-link custom-nav-link" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Contactez-Nous</a>
 
                                 <!--about submenu start-->
-                                <div class="hs-mega-menu main-sub-menu" aria-labelledby="aboutMegaMenu" style="min-width: 330px;">
+                                {{-- <div class="hs-mega-menu main-sub-menu" aria-labelledby="aboutMegaMenu" style="min-width: 330px;">
 
                                     <!--menu title with subtitle and icon item start-->
                                     <div class="title-with-icon-item">
@@ -607,23 +610,28 @@
                                         <!-- End List -->
                                     </div>
                                     <!--submenu footer end-->
-                                </div>
+                                </div> --}}
                                 <!--about submenu end-->
+                            </li>
+
+                            <li class="nav-item hs-has-sub-menu custom-nav-item">
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Gallery</a>
                             </li>
                             <!--about end-->
 
                             <!--button start-->
-                            <li class="nav-item header-nav-last-item d-flex align-items-center">
+                            {{-- <li class="nav-item header-nav-last-item d-flex align-items-center">
                                 <a class="btn primary-solid-btn animated-btn" href="#" target="_blank">
-                                    Get Started
+                                    Devenir Partenaire
                                 </a>
-                            </li>
+                            </li> --}}
                             <!--button end-->
                         </ul>
                     </div>
                     <!--main menu end-->
                 </nav>
             </div>
+        </div>
         </div>
         <!--main header menu end-->
     </header>

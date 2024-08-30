@@ -8,3 +8,13 @@
 .img-fluid.preload{
     width: 110px;
 }
+
+.domain-list{
+    display: flex;
+    justify-content: center;
+}
+
+.list-inline-item{
+    padding-right:25px ;
+    padding-left: 25px;
+}

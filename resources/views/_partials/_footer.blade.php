@@ -75,9 +75,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Privacy Policy</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Report Abuse</a>
-                                        </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Report Abuse</a>
+                                            </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Terms of Service</a>
                                         </li>
@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">Copyrights © 2024. Tout droits reservés par 
+                        <p class="copyright-text pb-0 mb-0">Copyrights © 2024. Tout droits reservés par
                             <a href="{{ route('index') }}" target="">LiFeSport</a>
                         </p>
                     </div>
