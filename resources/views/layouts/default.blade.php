@@ -32,7 +32,7 @@
     <!--footer section end-->
     <!--bottom to top button start-->
     <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="ti-rocket"></span>
+        <span class="fad fa-futbol"></span>
     </button>
     
     <!--bottom to top button end-->

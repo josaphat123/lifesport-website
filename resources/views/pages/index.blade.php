@@ -13,16 +13,16 @@
                             <p class="lead">"Parce que la vie est un Sport..."</p>
                             <ul class="list-inline header-feature-list mt-5">
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="ti-thumb-up icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">100% Network Uptime</h5>
+                                    <span class="fad fa-futbol icon-md d-block mb-3"></span>
+                                    <h5 class="text-white">Football</h5>
                                 </li>
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="ti-headphone-alt icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">24x7 Tech Support</h5>
+                                    <span class="fas fa-comments icon-md d-block mb-3"></span>
+                                    <h5 class="text-white">Debrief</h5>
                                 </li>
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="ti-lock icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">DDoS Protection</h5>
+                                    <span class="fas fa-bullhorn icon-md d-block mb-3"></span>
+                                    <h5 class="text-white">Actualités</h5>
                                 </li>
                             </ul>
                         </div>
@@ -122,18 +122,24 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 col-lg-6">
                         <div class="cta-new-wrap">
-                            <h2>Create Your Own Professional Website</h2>
-                            <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally deploy vertical leadership.</p>
+                            <h2>Qui Sommes-nous ?</h2>
+                            <p class="lead">Crée et lancée en Avril 2023, <strong>LIFESPORT</strong> est une <strong>Web TV Sportive</strong> ayant pour mission première et à long terme, la mise 
+                                en lumière du <strong>Sport Africain</strong> dans sa globalité.
+                                {{-- <br><br>
+                                Notre particularité se trouve dans la régularité à produire un contenu éducatif de qualité.</p> --}}
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Flexible, Easy to Use Control Panel</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong> Bandwidth</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong> Sub Domains, FTP Accounts</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>99%</strong> Uptime Guarantee</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>45-Day</strong> Money-Back Guarantee</li>
+                                <li class="py-1"><span class="fas fa-globe mr-2 color-primary"></span><strong>Une Audience</strong> partout dans le Monde.</li>
+                                <li class="py-1"><span class="fas fa-user-friends mr-2 color-primary"></span><strong>+ 1 Millions</strong> de personnes touchées par jours.</li>
+                                <li class="py-1"><span class="fas fa-share-alt mr-2 color-primary"></span><strong>LIFESPORT</strong> est présente sur 5 Grands réseaux réseaux.</li>
+                                <li class="py-1"><span class="fas fa-clock mr-2 color-primary"></span><strong>Disponible</strong> 24h24 et 7jours/7.</li>
+                                {{-- <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Mise en avant</strong> des talents africains émergents</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Reportages exclusifs</strong> sur des événements sportifs africains</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Contenu éducatif</strong> et analytique pour les fans et les athlètes</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Interviews</strong> avec des figures sportives emblématiques</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Couverture 24/7</strong> des actualités sportives africaines</li> --}}
                             </ul>
                             <div class="action-btns mt-4">
-                                <a href="#download" class="btn primary-solid-btn animated-btn mr-lg-3">Get
-                                    Started Now</a>
+                                <a href="#download" class="btn primary-solid-btn animated-btn mr-lg-3">Commencer Maintenant</a>
                             </div>
                         </div>
                     </div>
