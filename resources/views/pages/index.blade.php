@@ -4,13 +4,13 @@
 
 @section('content')
         <!--hero section start-->
-            <section class="hero-equal-height pt-165 ptb-100 gradient-overly test-1" style="background: url('lifesport/assets/img/hero-1.jpg')no-repeat center center / cover">
+            <section class="hero-equal-height pt-165 ptb-100 gradient-overly test-1" style="background: url('lifesport/assets/img/img-fond/home-2.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-8">
                         <div class="hero-content-wrap text-white text-center position-relative z-index">
-                            <h1 class="text-white">Fully-Managed Dedicated Server Hosting</h1>
-                            <p class="lead">Progressively integrate cost effective methods of empowerment vis-a-vis standardized information. Uniquely whiteboard functionalized.</p>
+                            <h1 class="text-white">Ensemble disons "LIFESPORT"</h1>
+                            <p class="lead">"Parce que la vie est un Sport..."</p>
                             <ul class="list-inline header-feature-list mt-5">
                                 <li class="list-inline-item text-center p-3">
                                     <span class="ti-thumb-up icon-md d-block mb-3"></span>
@@ -35,69 +35,64 @@
             </div>
         </section>
         <!--hero section end-->
-
+        {{-- <br> --}}
         <!--domain name block start-->
         <div class="domain-name-block pt-100 mt--165">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
                         <ul class="list-inline domain-list">
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                            <li class="list-inline-item menu-rs white-bg custom-shadow">
+                                <a target="_BLANK" href="https://www.tiktok.com/@lifes_sport">
                                     <div class="single-domain">
-                                        <img src="{{ asset('lifesport/assets/img/com.png') }}" alt="domain" class="img-fluid" />
+                                        <img src="{{ asset('lifesport/assets/img/social-networks/tiktok.svg') }}" alt="domain" alt="TikTok" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$2.56 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$29.95</span>
+                                            <h6 class="sell-price">+930<span
+                                                    class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                            <li class="list-inline-item menu-rs white-bg custom-shadow">
+                                <a target="_BLANK" href="https://www.facebook.com/eLifeSport">
                                     <div class="single-domain">
-                                        <img src="{{ asset('lifesport/assets/img/net.png') }}" alt="domain" class="img-fluid" />
+                                        <img src="{{ asset('lifesport/assets/img/social-networks/facebook.svg') }}" alt="domain" alt="Facebook" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$5.56 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$49.99</span>
+                                            <h6 class="sell-price">+130<span
+                                                class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                            <li class="list-inline-item menu-rs white-bg custom-shadow">
+                                <a target="_BLANK" href="https://www.youtube.com/@LIFE__SPORT">
                                     <div class="single-domain">
-                                        <img src="{{ asset('lifesport/assets/img/club.png') }}" alt="domain" class="img-fluid" />
+                                        <img src="{{ asset('lifesport/assets/img/social-networks/youtube.svg') }}" alt="domain" alt="YouTube" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$1.56 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$19.00</span>
+                                            <h6 class="sell-price">+90<span
+                                                class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                            <li class="list-inline-item menu-rs white-bg custom-shadow">
+                                <a target="_BLANK" href="https://www.instagram.com/llife_sport?igsh=MTUwYmZvbms5NDhueQ%3D%3D&utm_source=qr">
                                     <div class="single-domain">
-                                        <img src="{{ asset('lifesport/assets/img/org.png') }}" alt="domain" class="img-fluid" />
+                                        <img src="{{ asset('lifesport/assets/img/social-networks/instagram.svg') }}" alt="domain" alt="Instagram" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$6.99 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$59.95</span>
+                                            <h6 class="sell-price">+70<span
+                                                    class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                            <li class="list-inline-item menu-rs white-bg custom-shadow">
+                                <a target="_BLANK" href="https://www.threads.net/@llife_sport?xmt=AQGzpWum1ro2fG9aW7UZTiaPu1E4ukNoDuLF8jodmfxgAkA">
                                     <div class="single-domain">
-                                        <img src="{{ asset('lifesport/assets/img/store.png') }}" alt="domain" class="img-fluid" />
+                                        <img src="{{ asset('lifesport/assets/img/social-networks/threads.svg') }}" alt="domain" alt="Threads" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$0.99 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$4.99</span>
+                                            <h6 class="sell-price">+10<span
+                                                    class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
                                 </a>

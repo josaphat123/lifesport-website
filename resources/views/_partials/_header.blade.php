@@ -55,7 +55,7 @@
                         <ul class="navbar-nav ml-auto main-navbar-nav">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link" href="{{ route('index') }}" aria-haspopup="true" aria-expanded="false">Accueil</a>
 
                                 <!--home mega menu start-->
                                 {{-- <div class="hs-mega-menu w-100 main-sub-menu" aria-labelledby="homeMegaMenu">
