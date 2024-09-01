@@ -188,7 +188,7 @@
                                     <span class="fas fa-globe text-white"></span>
                                 </div>
                                 <h5>Community Management Avancé</h5>
-                                <p>Nous façonnons votre image en ligne, tout en développant une audience
+                                <p>Laissez-nous façonner votre image en ligne, tout en développant une audience
                                 fidèle et une communauté engagée.</p>
                             </div>
                         </a>
@@ -200,8 +200,8 @@
                                     <span class="fas fa-code text-white"></span>
                                 </div>
                                 <h5>Développement d'Applications</h5>
-                                <p>Nous gérons l'intégralité de la Conception, Développement, Déploiement, de votre
-                                <strong>Site Web ou Application Web/Mobile</strong></p>
+                                <p>Créez absolument un <strong>Site Web</strong> ou une <strong>Application Mobile</strong> pour booster votre réputation.
+                                <strong>LIFESPORT s'en charge !</strong></p>
                             </div>
                         </a>
                     </div>
@@ -226,84 +226,108 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/icon-shared-hosting.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/solutions-digitales.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">Shared Hosting</h3>
-                                <p>Our most popular product! Shared Web Hosting gives you a fast SSD
-                                    storage hosting.</p>
+                                <h3 class="h5">Solutions Digitales.</h3>
+                                <p class="text-left liste-services">
+                                -Développement d'applications Web/Mobile.<br>
+                                -Création de Site Web.<br>
+                                -Community Management.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-wordpress-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="{{ asset('lifesport/assets/img/services-img/production-multimedia.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">WordPress Hosting</h3>
-                                <p>Get up and running fast with Optimized performance easy
-                                    maintenance hosting.</p>
+                                <h3 class="h5">Production Multimédia.</h3>
+                                <p class="text-left liste-services">
+                                -Conception Graphique(Visuels).<br>
+                                -Production Vidéos Pro.<br>
+                                -Animation 2D/3D.<br>
+                                -Conception UX/UI Design.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-vps-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">VPS Hosting</h3>
-                                <p>Virtual Private Servers with ultra-fast SSDs and flexibility, Ubuntu, IPv6,
-                                    Nginx and more.</p>
+                                <h3 class="h5">Marketing Digital</h3>
+                                <p class="text-left liste-services">
+                                -Services Publicitaires.<br>
+                                -Gestion des Médias Sociaux.<br>
+                                -Coaching Monétisation(Contenu).<br>
+                                -Conception UX/UI Design.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$12.00/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-website-builder.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">WP Website Builder</h3>
-                                <p>No code required! Build your site confidently with design tools that WordPress
-                                    website build.</p>
+                                <h3 class="h5">Marketing Digital</h3>
+                                <p class="text-left liste-services">
+                                -Services Publicitaires.<br>
+                                -Gestion des Médias Sociaux.<br>
+                                -Coaching Monétisation(Contenu).<br>
+                                -Conception UX/UI Design.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-dadicate-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">Dedicated Hosting</h3>
-                                <p>Fast web servers to run your applications with root and a 100% Guarantee
-                                    our hosting.</p>
+                                <h3 class="h5">Marketing Digital</h3>
+                                <p class="text-left liste-services">
+                                -Services Publicitaires.<br>
+                                -Gestion des Médias Sociaux.<br>
+                                -Coaching Monétisation(Contenu).<br>
+                                -Conception UX/UI Design.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$145.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-cloud-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">Cloud Hosting</h3>
-                                <p>Lightning-fast servers with root access, SSD storage and blazing-fast networking hosting.</p>
+                                <h3 class="h5">Marketing Digital</h3>
+                                <p class="text-left liste-services">
+                                -Services Publicitaires.<br>
+                                -Gestion des Médias Sociaux.<br>
+                                -Coaching Monétisation(Contenu).<br>
+                                -Conception UX/UI Design.
+                                </p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$0.0059/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                            <div class="action-wrap mt-3 card-services">
+                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>

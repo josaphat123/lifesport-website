@@ -27,3 +27,24 @@
 .div-im-1{
     margin-top:10px;
 }
+
+.details-card-services{
+    text-decoration: none !important;
+    color: #d5650f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.details-card-services:hover{
+    color: #d5650f;
+    text-decoration: underline !important;
+}
+
+.card-services{
+    border-top:1px solid #d5650f;
+    border-radius: 10px;
+}
+
+.liste-services{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px !important;
+}
