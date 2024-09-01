@@ -123,14 +123,14 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="cta-new-wrap">
                             <h2>Qui Sommes-nous ?</h2>
-                            <p class="lead">Crée et lancée en Avril 2023, <strong>LIFESPORT</strong> est une <strong>Web TV Sportive</strong> ayant pour mission première et à long terme, la mise 
+                            <p class="lead">Crée et lancée en Avril 2023, <strong>LIFESPORT</strong> est avant tout une <strong>Web TV Sportive</strong> ayant pour mission première et à long terme, la mise 
                                 en lumière du <strong>Sport Africain</strong> dans sa globalité.
                                 {{-- <br><br>
                                 Notre particularité se trouve dans la régularité à produire un contenu éducatif de qualité.</p> --}}
                             <ul class="list-unstyled tech-feature-list">
                                 <li class="py-1"><span class="fas fa-globe mr-2 color-primary"></span><strong>Une Audience</strong> partout dans le Monde.</li>
-                                <li class="py-1"><span class="fas fa-user-friends mr-2 color-primary"></span><strong>+ 1 Millions</strong> de personnes touchées par jours.</li>
-                                <li class="py-1"><span class="fas fa-share-alt mr-2 color-primary"></span><strong>LIFESPORT</strong> est présente sur 5 Grands réseaux réseaux.</li>
+                                <li class="py-1"><span class="fas fa-user-friends mr-2 color-primary"></span><strong>+ 2.5 Millions</strong> de personnes touchées par jours.</li>
+                                <li class="py-1"><span class="fas fa-share-alt mr-2 color-primary"></span><strong>LIFESPORT</strong> est présent sur 5 Grands réseaux réseaux.</li>
                                 <li class="py-1"><span class="fas fa-clock mr-2 color-primary"></span><strong>Disponible</strong> 24h24 et 7jours/7.</li>
                                 {{-- <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Mise en avant</strong> des talents africains émergents</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Reportages exclusifs</strong> sur des événements sportifs africains</li>
@@ -139,13 +139,13 @@
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Couverture 24/7</strong> des actualités sportives africaines</li> --}}
                             </ul>
                             <div class="action-btns mt-4">
-                                <a href="#download" class="btn primary-solid-btn animated-btn mr-lg-3">Commencer Maintenant</a>
+                                <a href="#download" class="btn primary-solid-btn animated-btn mr-lg-3">Boostez votre visibilité !</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-6 div-im-1" >
                         <div class="cta-new-wrap">
-                            <img src="{{ asset('lifesport/assets/img/data-center.svg') }}" alt="hosting" class="img-fluid" />
+                            <img src="{{ asset('lifesport/assets/img/img-fond/img-1.jpg') }}" alt="hosting" class="img-fluid img-1" />
                         </div>
                     </div>
                 </div>
@@ -154,14 +154,16 @@
         <!--feature section end-->
 
         <!--promo-section section start-->
-        <section class="promo-section ptb-100">
+        <section class="promo-section ptb-50">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-md-0 mb-lg-5">
-                            <h2>HostLar Helps You Succeed</h2>
-                            <p class="lead">Grow your website faster by using hostlar as your foundation. Dynamically
-                                streamline principle-centered technologies.</p>
+                            <h2>Propulsez votre marque !</h2>
+                            <p class="lead">Touchez au moins <strong>300K personnes/Jours</strong> grâce à <strong>LIFESPORT SERVICES</strong>.
+                            <br>
+                            Nous maximisons l'engagement autour de votre marque et bénéficiez de notre expertise pour propulser vos activités <strong>24h/24, 7j/7 !</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -170,10 +172,12 @@
                         <a href="#">
                             <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
                                 <div class="circle-icon">
-                                    <span class="fas fa-bezier-curve text-white"></span>
+                                    <span class="fas fa-chart-line text-white"></span>
                                 </div>
-                                <h5>Super Easy to Use</h5>
-                                <p>Increase sales by showing true dynamics of your website.</p>
+                                <h5>Publicité Internationale</h5>
+                                <p>Touchez au moins <strong>100K Personnes/Jours</strong> dans le Pays ou la Ville de votre choix.
+                                <br>
+                                Sans vous déplacer !</p>
                             </div>
                         </a>
                     </div>
@@ -181,10 +185,11 @@
                         <a href="#">
                             <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
                                 <div class="circle-icon">
-                                    <span class="fas fa-sync-alt text-white"></span>
+                                    <span class="fas fa-globe text-white"></span>
                                 </div>
-                                <h5>Fast & Reliable</h5>
-                                <p>Build your online store’s trust using Social Proof &amp; Urgency.</p>
+                                <h5>Community Management Avancé</h5>
+                                <p>Nous façonnons votre image en ligne, tout en développant une audience
+                                fidèle et une communauté engagée.</p>
                             </div>
                         </a>
                     </div>
@@ -192,10 +197,11 @@
                         <a href="#">
                             <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
                                 <div class="circle-icon">
-                                    <span class="fas fa-headset text-white"></span>
+                                    <span class="fas fa-code text-white"></span>
                                 </div>
-                                <h5>24/7 Expert Support</h5>
-                                <p>Realize importance of social proof in customer’s purchase decision.</p>
+                                <h5>Développement d'Applications</h5>
+                                <p>Nous gérons l'intégralité de la Conception, Développement, Déploiement, de votre
+                                <strong>Site Web ou Application Web/Mobile</strong></p>
                             </div>
                         </a>
                     </div>
@@ -211,16 +217,16 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h2>We Have a Hosting Solution For You</h2>
-                            <p class="lead">Synergistically architect plug-and-play without next-generation
-                                manufactured products. Assertively develop synergistic networks.</p>
+                            <h2>L'intégralité de nos Services</h2>
+                            <p class="lead">Nos services sont variés, passant par la Publicité,
+                            le Développement d'Applications jusqu'à</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="assets/img/icon-shared-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/icon-shared-hosting.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h3 class="h5">Shared Hosting</h3>
                                 <p>Our most popular product! Shared Web Hosting gives you a fast SSD
