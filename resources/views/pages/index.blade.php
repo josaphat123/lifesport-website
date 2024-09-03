@@ -305,7 +305,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="{{ asset('lifesport/assets/img/services-img/cloud.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content text-left liste-services">
                                 <h3 class="h5 text-center">Cloud &amp; Hébergement</h3>
                                 <p class="text-left liste-services">
