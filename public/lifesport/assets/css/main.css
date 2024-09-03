@@ -2,7 +2,7 @@
 Template Name: Lifesport
 Description: LifeSport est une Web TV Sportive et une Entreprise exercice de les domaines de Publicités, Community Management, Placement de produit et Developpement d'applications Web/Mobile
 Version: 1.0 
-Author: #fd7e14-- btn-link
+Author: #fd7e14--  .single-promo-2 span
 =======================*/  
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -3795,20 +3795,20 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
-.btn-link {
+. {
   font-weight: 400;
   color: #007bff;
   text-decoration: none;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
-.btn-link:hover {
+.:hover {
   color: #0056b3;
   text-decoration: underline;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
-.btn-link.focus, .btn-link:focus {
+..focus, .:focus {
   text-decoration: underline;
 }
 
@@ -51209,7 +51209,7 @@ a:hover {
 /* line 264, src/assets/scss/custom/_style.scss */
 .primary-solid-btn {
   border: 1px solid #F45827;
-  background: #F45827;
+  background: linear-gradient(80deg, #F45827, #df890d) !important;
   color: #ffffff;
 }
 
@@ -53688,8 +53688,8 @@ a .single-promo-2 p {
   width: 64px;
   height: 64px;
   line-height: 64px;
-  /* background: #fd7e14; */
-  background: #F45827;
+  background: #fd7e14;
+  /* background: #F45827; */
 }
 
 /* line 2334, src/assets/scss/custom/_style.scss */

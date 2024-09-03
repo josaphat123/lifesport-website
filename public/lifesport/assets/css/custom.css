@@ -3,8 +3,6 @@
     border-radius:60px;
     padding: 5px;
 }
-
-
 .img-fluid.preload{
     width: 110px;
 }
@@ -30,21 +28,60 @@
 
 .details-card-services{
     text-decoration: none !important;
-    color: #d5650f;
+    color: #e45913;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 
 .details-card-services:hover{
-    color: #d5650f;
-    text-decoration: underline !important;
+    color: #fff;
 }
 
 .card-services{
-    border-top:1px solid #d5650f;
+    border-top:1px solid #F45827;
+    border-bottom:1px solid #F45827;
     border-radius: 10px;
+    transition-duration:0.3s;
+}
+
+.card-services:hover{
+    background: linear-gradient(80deg, #F45827, #f1af33);
+    transition-duration:0.3s;
+}
+
+.card-services:hover .details-card-services{
+    color: #fff;
 }
 
 .liste-services{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px !important;
+}
+
+.services-animation{
+    display: block;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.services-animation:hover{
+    color: #1934a7;
+    font-size: 15px;
+    transition-duration: 0.3s
+}
+
+/*pour les icones sur le fond d'ecran */
+
+.icon-img-fond{
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+
+.title-icon{
+    cursor: pointer;
+}
+
+.icon-img-fond:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
 }

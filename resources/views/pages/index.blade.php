@@ -13,16 +13,16 @@
                             <p class="lead">"Parce que la vie est un Sport..."</p>
                             <ul class="list-inline header-feature-list mt-5">
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="fad fa-futbol icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">Football</h5>
+                                    <span class="fad fa-futbol icon-md d-block mb-3 icon-img-fond"></span>
+                                    <h5 class="text-white title-icon">Football</h5>
                                 </li>
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="fas fa-comments icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">Debrief</h5>
+                                    <span class="fas fa-comments icon-md d-block mb-3 icon-img-fond"></span>
+                                    <h5 class="text-white title-icon">Debrief</h5>
                                 </li>
                                 <li class="list-inline-item text-center p-3">
-                                    <span class="fas fa-bullhorn icon-md d-block mb-3"></span>
-                                    <h5 class="text-white">Actualités</h5>
+                                    <span class="fas fa-bullhorn icon-md d-block mb-3 icon-img-fond"></span>
+                                    <h5 class="text-white title-icon">Actualités</h5>
                                 </li>
                             </ul>
                         </div>
@@ -227,16 +227,16 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="{{ asset('lifesport/assets/img/services-img/solutions-digitales.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Solutions Digitales.</h3>
-                                <p class="text-left liste-services">
-                                -Développement d'applications Web/Mobile.<br>
-                                -Création de Site Web.<br>
-                                -Community Management.
-                                </p>
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Solutions Digitales.</h3>
+                                <span class="services-animation">-Développement d'applications.</span>
+                                <span class="services-animation">-Création de Sites Web.</span>
+                                <span class="services-animation">-Maintenance Informatique.</span>
+                                <span class="services-animation">-Analyse de données(Power BI).</span>
+                                <span class="services-animation">-Support Technique(24h/24).</span>
+                                
                             </div>
                             <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
                                 <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
@@ -244,17 +244,15 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                         <img src="{{ asset('lifesport/assets/img/services-img/production-multimedia.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Production Multimédia.</h3>
-                                <p class="text-left liste-services">
-                                -Conception Graphique(Visuels).<br>
-                                -Production Vidéos Pro.<br>
-                                -Animation 2D/3D.<br>
-                                -Conception UX/UI Design.
-                                </p>
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Production Multimédia.</h3>
+                                <span class="services-animation">-Conception Graphique(Visuels).</span>
+                                <span class="services-animation">-Réalisation Vidéos Pro.</span>
+                                <span class="services-animation">-Photographie(Shooting Photo)</span>
+                                <span class="services-animation">-Animation 2D/3D.</span>
+                                <span class="services-animation">-Maquette UX/UI Design.</span>
                             </div>
                             <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
                                 <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
@@ -262,17 +260,45 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Marketing Digital</h3>
-                                <p class="text-left liste-services">
-                                -Services Publicitaires.<br>
-                                -Gestion des Médias Sociaux.<br>
-                                -Coaching Monétisation(Contenu).<br>
-                                -Conception UX/UI Design.
-                                </p>
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Marketing Digital</h3>
+                                <span class="services-animation">-Campagnes Publicitaires Ciblées.</span>
+                                <span class="services-animation">-Community Management.</span>
+                                <span class="services-animation">-Marketing de Contenu/d'Influence</span>
+                                <span class="services-animation">-Coaching en Monétisation.</span>
+                                <span class="services-animation">-Optimisation Référencement SEO.</span>
                             </div>
                             <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
+                            <img src="{{ asset('lifesport/assets/img/services-img/services-bureautique.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Services Bureautique</h3>
+                                <span class="services-animation">-Formation MS Word.</span>
+                                <span class="services-animation">-Formation MS Excel.</span>
+                                <span class="services-animation">-Formation MS PowerPoint.</span>
+                                <span class="services-animation">-Formation MS Teams.</span>
+                            </div>
+                            <div class="action-wrap mt-3 card-services">
+                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
+                            <img src="{{ asset('lifesport/assets/img/services-img/developpement-logiciel.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Développement Logiciels</h3>
+                                <span class="services-animation">-Création de Logiciels sur mesure.</span>
+                                <span class="services-animation">-Automatisation de Processus.</span>
+                                <span class="services-animation">-Gestion de Projets Logiciels.</span>
+                                <span class="services-animation">-Prototypage d'Application.</span>
+                            </div>
+                            <div class="action-wrap mt-3 card-services">
                                 <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
@@ -280,53 +306,15 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Marketing Digital</h3>
+                            <div class="service-plane-content text-left liste-services">
+                                <h3 class="h5 text-center">Cloud &amp; Hébergement</h3>
                                 <p class="text-left liste-services">
-                                -Services Publicitaires.<br>
-                                -Gestion des Médias Sociaux.<br>
-                                -Coaching Monétisation(Contenu).<br>
-                                -Conception UX/UI Design.
-                                </p>
+                                <span class="services-animation">-Hébergement d'APP dans le Cloud</span>
+                                <span class="services-animation">-Gestion de Cloud Services.</span>
+                                <span class="services-animation">-Maintenance Cloud Services.</span>
+                                <span class="services-animation">-Cloud Infrastrcuture.</span>
                             </div>
                             <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Marketing Digital</h3>
-                                <p class="text-left liste-services">
-                                -Services Publicitaires.<br>
-                                -Gestion des Médias Sociaux.<br>
-                                -Coaching Monétisation(Contenu).<br>
-                                -Conception UX/UI Design.
-                                </p>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content">
-                                <h3 class="h5">Marketing Digital</h3>
-                                <p class="text-left liste-services">
-                                -Services Publicitaires.<br>
-                                -Gestion des Médias Sociaux.<br>
-                                -Coaching Monétisation(Contenu).<br>
-                                -Conception UX/UI Design.
-                                </p>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <p><strong>LIFESPORT</strong></p>
                                 <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
