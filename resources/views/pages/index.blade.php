@@ -218,8 +218,9 @@
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
                             <h2>L'intégralité de nos Services</h2>
-                            <p class="lead">Nos services sont variés, passant par la Publicité,
-                            le Développement d'Applications jusqu'à</p>
+                            <p class="lead">Accédez à l'expertise sur-mesure en bénéficiant de nos services variés.
+                            <br>
+                            Votre succès commence ici !</p>
                         </div>
                     </div>
                 </div>
@@ -329,18 +330,18 @@
         <!--services section end-->
 
         <!--call to action section start-->
-        <section class="call-to-action ptb-100 gradient-overly" style="background: url('lifesport/assets/img/img-fond/img-2.jpg')no-repeat center center / cover">
+        <section class="call-to-action ptb-100 gradient-overly" style="background: url('lifesport/assets/img/img-fond/img-5.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
                         <div class="call-to-action-content text-white text-center">
                             <h2 class="text-white">Profitez d'une Consultation Gratuite !</h2>
                             <p class="lead mb-0">L'occasion <strong>unique</strong> pour vous de reprendre le contrôle grâce à notre Expertise.</p>
-                            <p>Horaire : <strong> Lun-Ven 8h00-19h00 PT</strong> | Support Client : Tous les jours <strong>
+                            <p><strong>Horaire : Lun-Ven 8h00-19h00 Pm</strong> | <strong>Support Client : Tous les jours 
                                 24h/24 7jours/7</strong></p>
                             <div class="action-btns">
-                                <a target="_BLANK" href="https://wa.me/message/JWAKAZV73SWIN1" class="btn primary-solid-btn mr-3">Discuter avec-nous</a>
-                                <a href="#" class="btn outline-white-btn">Envoyer un E-Mail</a>
+                                <a target="_BLANK" href="https://wa.me/message/JWAKAZV73SWIN1" class="btn primary-solid-btn mr-3">Discuter avec-nous <span class="fas fa-comments mr-2"></span></a>
+                                <a href="#" class="btn outline-white-btn">Envoyer un E-Mail <span class="fas fa-envelope"></span></a>
                             </div>
                         </div>
                     </div>
@@ -357,33 +358,33 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h2>Managed Our Hosting Price</h2>
+                            <h2>-75% de Coûts Publicitaires !</h2>
                             <p class="lead">
-                                Professional hosting at an affordable price. Distinctively recaptiualize principle-centered
-                                core competencies through
-                                core competencies.
+                                Faites le premier pas avec <strong>-75% de réduction</strong> sur nos services Publicitaires.
+                                <br>
+                                Débloquez votre visibilité !
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-10 col-sm-8 col-md-7">
+                    <div class="col-10 col-sm-8 col-md-12">
                         <div class="text-center mb-5 radio-box-wrap billingCycle">
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                                <label for="monthly-plan"><span class="custom-check"></span> Monthly</label>
+                                <label for="monthly-plan"><span class="custom-check"></span>Pack FAST BOOST</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                                <label for="yearly-plan"><span class="custom-check"></span> Yearly</label>
+                                <label for="yearly-plan"><span class="custom-check"></span>Pack INFLUENCE</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                                <label for="biannual-plan"><span class="custom-check"></span> Biannual</label>
+                                <label for="biannual-plan"><span class="custom-check"></span>Pack MARKET LEADER</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                                <label for="triennial-plan"><span class="custom-check"></span> Triennial</label>
+                                <label for="triennial-plan"><span class="custom-check"></span>COMMUNITY MANAGEMENT</label>
                             </div>
                         </div>
                     </div>
@@ -392,27 +393,27 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="card text-center single-pricing-pack">
                             <div class="pt-5">
-                                <h5 class="mb-0">Cloud Starter</h5>
-                                <p class="mb-0">Medium traffic personal sites</p>
+                                <h5 class="mb-0">Forfait Basique</h5>
+                                <p class="mb-0">Conçu pour les très petits budgets</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+                                <div class="price text-center mb-0 monthly-price">10.000<span>FCFA</span></div>
                                 <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
                                 <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
                                 <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><span>10</span> Hosted Domains</li>
-                                    <li><span>25 GB</span> RAID 10 Storage</li>
-                                    <li><span>200 GB</span> Bandwidth</li>
+                                    <li><span>2</span>Posts</li>
+                                    <li><span>2</span>Story</li>
+                                    <li><span>Lien de redirection</span> sur les Posts</li>
                                     <li><span>1 Free</span> Domain included</li>
                                     <li><span>Super Fast</span> SSD Storage</li>
                                     <li><span>Free</span> SSL Certificate</li>
                                     <li>99.95% Uptime</li>
                                     <li>24/7 Phone Support</li>
                                 </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+                                <a href="#" class="btn outline-btn mb-3" target="_blank">Payer avec -75%</a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +440,7 @@
                                     <li>99.95% Uptime</li>
                                     <li>24/7 Phone Support</li>
                                 </ul>
-                                <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Purchase now</a>
+                                <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Payer avec -75%</a>
                             </div>
                         </div>
                     </div>
@@ -466,7 +467,7 @@
                                     <li>99.95% Uptime</li>
                                     <li>24/7 Phone Support</li>
                                 </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+                                <a href="#" class="btn outline-btn mb-3" target="_blank">Payer avec -75%</a>
                             </div>
                         </div>
                     </div>
@@ -684,78 +685,4 @@
             </div>
         </div> 
         <!--faq section end-->
-
-        <!--testimonial and review section start-->
-        <section class="client-review-section ptb-100 gray-light-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-5">
-                            <h2>What Our Customers Say About Us?</h2>
-                            <p class="lead">Authoritatively reinvent client-centric e-markets via fully tested process. Objectively restore strategic initiatives through fully researched.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                            <ul class="list-inline ratting-list mb-2">
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            </ul>
-                            <div class="ratting-content">
-                                <h5>Awesome support from technical</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively maximize 2.0 relationships whereas process-centric.</p>
-                            </div>
-                            <div class="ratting-author mt-3">
-                                <h6>Alex Khamer</h6>
-                                <small class="text-right">6 days ago</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                            <ul class="list-inline ratting-list mb-2">
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            </ul>
-                            <div class="ratting-content">
-                                <h5>Awesome Design Quality with Support</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0 relationships whereas methodologies.</p>
-                            </div>
-                            <div class="ratting-author mt-3">
-                                <h6>Peter Anderson</h6>
-                                <small class="text-right">3 days ago</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                            <ul class="list-inline ratting-list mb-2">
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            </ul>
-                            <div class="ratting-content">
-                                <h5>Contacted support after Midnight</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively maximize 2.0 relationships whereas process-centric.</p>
-                            </div>
-                            <div class="ratting-author mt-3">
-                                <h6>Jolio Darix</h6>
-                                <small class="text-right">8 days ago</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--testimonial and review section end-->
 @endsection

@@ -2,7 +2,7 @@
 Template Name: Lifesport
 Description: LifeSport est une Web TV Sportive et une Entreprise exercice de les domaines de Publicités, Community Management, Placement de produit et Developpement d'applications Web/Mobile
 Version: 1.0 
-Author: #fd7e14--  
+Author: #fd7e14--   ed6a03 af5e16 #035ded .outline-btn
 =======================*/  
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -51121,12 +51121,12 @@ strong, b {
 
 /* line 195, src/assets/scss/custom/_style.scss */
 a {
-  color: #035ded;
+  color: #ed6a03;
 }
 
 /* line 199, src/assets/scss/custom/_style.scss */
 a:hover {
-  color: #031974;
+  color: #dc5a14;
   text-decoration: none;
 }
 
@@ -51252,14 +51252,14 @@ a:hover {
 .outline-btn {
   position: relative;
   display: inline-block;
-  color: #035ded;
-  border: 1px solid #035ded;
+  color: #dc5a14;
+  border: 1px solid #F45827;
 }
 
 /* line 305, src/assets/scss/custom/_style.scss */
 .outline-btn:hover {
   color: #ffffff;
-  background: #035ded;
+  background: linear-gradient(80deg, #F45827, #df890d) !important
 }
 
 /* line 309, src/assets/scss/custom/_style.scss */
@@ -53146,7 +53146,7 @@ svg.shape-bg, svg.promo-bg {
 .single-pricing-pack:hover {
   -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.12) !important;
           box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.12) !important;
-  border: 2px solid #035ded;
+  border: 2px solid #d8790e;
 }
 
 /* line 1897, src/assets/scss/custom/_style.scss */
@@ -53175,7 +53175,7 @@ svg.shape-bg, svg.promo-bg {
   font-size: 35px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #035ded;
+  color: #1934a7;
 }
 
 /* line 1918, src/assets/scss/custom/_style.scss */
@@ -53218,7 +53218,7 @@ svg.shape-bg, svg.promo-bg {
 .pricing-feature-list li span {
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #5a5a5a;
+  color: #dc5a14;
   font-size: 13px;
 }
 
@@ -53226,7 +53226,7 @@ svg.shape-bg, svg.promo-bg {
 .popular-price {
   -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
           box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
-  border: 2px solid #035ded !important;
+  border: 2px solid #d8790e !important;
 }
 
 /* line 1959, src/assets/scss/custom/_style.scss */
@@ -56166,7 +56166,7 @@ button.scroll-top:focus {
 .single-radio-box {
   display: block;
   position: relative;
-  border: 1px solid #ebebeb;
+  border: 1px solid #f1af33;
   margin: 5px 12px;
   border-radius: 4px;
   width: 100%;
@@ -56230,7 +56230,7 @@ button.scroll-top:focus {
 
 /* line 4375, src/assets/scss/custom/_style.scss */
 .single-radio-box input[type=radio]:checked ~ label .custom-check {
-  border: 2px solid #035ded;
+  border: 2px solid #f1af33;
   background: #fff;
 }
 
@@ -56239,13 +56239,13 @@ button.scroll-top:focus {
   font-family: "Font Awesome 6 Pro";
   font-weight: 900;
   content: "\f00c";
-  color: #035ded;
+  color: #ed6a03;
 }
 
 /* line 4385, src/assets/scss/custom/_style.scss */
 .single-radio-box input[type=radio]:checked ~ label {
   color: #fff;
-  background: #035ded;
+  background: #ed6a03;
   border-radius: 4px;
 }
 
