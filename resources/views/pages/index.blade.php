@@ -330,7 +330,7 @@
         <!--services section end-->
 
         <!--call to action section start-->
-        <section class="call-to-action ptb-100 gradient-overly" style="background: url('lifesport/assets/img/img-fond/img-5.jpg')no-repeat center center / cover">
+        <section class="call-to-action ptb-100" style="background: url('lifesport/assets/img/img-fond/img-2.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
@@ -706,12 +706,12 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="features-box p-4">
                             <div class="features-box-icon">
-                                <span class="ti-panel icon-md color-primary"></span>
+                                <span class="fas fa-bolt icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>Custom Control Panel</h5>
-                                <p>Our intuitive control panel gives you admin access to all of your DreamHost products.
-                                    Easily update domain information, add users, adjust email settings gain access.</p>
+                                <h5>Rapidité</h5>
+                                <p><strong>LIFESPORT</strong> se caractérise par sa rapidité à mettre en place des solutions innovantes.
+                                Vous obtenez des résultats visibles en un temps record.</p>
                             </div>
                         </div>
                     </div>
@@ -721,21 +721,22 @@
                                 <span class="ti-thumb-up icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>Real-Life Human Beings</h5>
-                                <p>Tech veterans, geeks, and nerds are all standing by to optimize your experience. Whether
-                                    you get in touch with our support, read our knowledge base, or start a thread.</p>
+                                <h5>Fiabilité (Toujours bien fait !)</h5>
+                                <p>Nous mettons l'accent sur la qualité du travail fourni. Et nous sommes attentifs aux retours clients.
+                                Ce qui nous confère une constante amélioration.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="features-box p-4">
                             <div class="features-box-icon">
-                                <span class="ti-mouse-alt icon-md color-primary"></span>
+                                <span class="fas fa-star icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>1-Click Installer</h5>
-                                <p>No need to dig into a bunch of documentation. Simply install web apps like WordPress,
-                                    Joomla! and more. Monotonectally administrate economically sound opportunities.</p>
+                                <h5>Popularité</h5>
+                                <p>Notre Audience de +10 Millions de personnes est un atout majeur sur le marché.
+                                Promouvoir les produits et services clients devient un jeu en un clic.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -745,33 +746,33 @@
                                 <span class="ti-timer icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>100% Uptime Guarantee</h5>
-                                <p>With multiple datacenter locations, redundant cooling, emergency generators, and constant
-                                    monitoring, we are able to offer our 100% Uptime Guarantee.</p>
+                                <h5>Ponctualité(100%)</h5>
+                                <p>Respecter les engagements est un principe formel chez <strong>LIFESPORT</strong>.
+                                Nous nous efforçons à disponible pour répondre aux besoins de nos clients.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="features-box p-4">
                             <div class="features-box-icon">
-                                <span class="ti-harddrives icon-md color-primary"></span>
+                                <span class="fas fa-lightbulb icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>Solid State Drives (SSD)</h5>
-                                <p>With SSDs, your website, caching, and database queries are faster by our calculations.
-                                    Quickly orchestrate worldwide niche markets vis-a-vis end-to-end infomediaries. </p>
+                                <h5>Innovation</h5>
+                                <p>Nous pronons l'Amélioration Continue, et chaque service fourni est une occasion
+                                de se renouveler, se réinventer pour toujours offrir un service de qualité.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="features-box p-4">
                             <div class="features-box-icon">
-                                <span class="ti-cup icon-md color-primary"></span>
+                                <span class="fas fa-award icon-md color-primary"></span>
                             </div>
                             <div class="features-box-content">
-                                <h5>Award-Winning Support</h5>
-                                <p>No question is too simple, or too complex for our team of experts. Synergistically
-                                    synergize Our in-house support staff and service team are here for you 24/7, 365.</p>
+                                <h5>Reconnaissance</h5>
+                                <p><strong>LIFESPORT</strong> est une famille, et nos clients en font partie. Nous sommes unis par le Sport
+                                et chaque collaboration est un match dont on oubliera jamais les acteurs.</p>
                             </div>
                         </div>
                     </div>
@@ -783,22 +784,22 @@
         <!--feature section end-->
 
         <!--call to action section start-->
-        <section class="call-to-action ptb-100 gradient-overlay" style="background: url('assets/img/hero-bg-4.jpg')no-repeat center center / cover">
+        <section class="call-to-action ptb-100" style="background: url('lifesport/assets/img/img-fond/img-3.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-12 col-lg-8">
                         <div class="call-to-action-content text-white">
-                            <h2 class="text-white">Need Some Help?</h2>
-                            <p>Whether you’re stuck or just want some tips on where to start, hit up our experts anytime.
-                                <br> Sales Chat: <strong> MON-FRI 8AM-4PM PT</strong> | Customer Support Chat: Every Day
-                                <strong> 5:30AM–9:30PM PT</strong>
+                            <h2 class="text-white">BOOSTEZ VOTRE CROISSANCE !</h2>
+                            <p>Bénéficiez de notre expertise sur mesure et prenez le contrôle de votre succès.
+                                <br> <strong>Horaire : Lun-Ven 8h00-19h00 Pm</strong> | <strong>Support Client : Tous les jours 
+                                24h/24 7jours/7</strong>
                             </p>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4">
                         <div class="action-btns mt-md-4 text-md-right text-lg-right text-sm-left">
-                            <a href="#" class="btn solid-white-btn mr-3">Chat With Us</a>
-                            <a href="#" class="btn outline-white-btn">Send us an Email</a>
+                            <a href="#" class="btn solid-white-btn mr-1">Lancer Chat !</a>
+                            <a href="#" class="btn outline-white-btn">Envoyer un E-mail</a>
                         </div>
                     </div>
                 </div>
@@ -806,6 +807,91 @@
         </section>
 
         <!--call to action section end-->
+
+        <!--meet our team carousel style start-->
+        <section class="our-team-section ptb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="section-heading text-center mb-5">
+                            <h2>Découvrez notre équipe</h2>
+                            <p>Nous sommes constitués d'Espert en différents domaines d'activités.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="owl-carousel owl-theme team-member-carousel custom-dot dot-bottom-center">
+                            <div class="item">
+                                <div class="staff-member">
+                                    <div class="card text-center">
+                                        <img src="{{ asset('lifesport/assets/img/team/ouraga.jpg') }}" alt="team image" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="teacher mb-0">Jean-Philippe OURAGA</h5>
+                                            <span>Full Stack Developper & Data Engineer</span>
+                                            <ul class="list-inline pt-2 social">
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-facebook"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-linkedin"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-dribbble"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="overlay d-flex align-items-center justify-content-center">
+                                        <div class="overlay-inner">
+                                            <p class="teacher-quote">"Developpement d'Applications | Cloud | Data Ingenierie sont mes domaines de prédilections." </p><a href="#" class="teacher-name">
+                                                <h5 class="mb-0 teacher text-white">Jean-Philippe OURAGA</h5>
+                                            </a>
+                                            <span class="teacher-field text-white">Full Stack Developper & Data Engineer</span>
+                                            <ul class="list-inline py-4 social">
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-facebook"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-linkedin"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-dribbble"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--meet our team carousel style end-->
+
+
+
+                <!--meet our team carousel style start-->
+        <section class="our-team-section ptb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="section-heading text-center mb-5">
+                            <h2>Vidéos Populaires</h2>
+                            <p>"Parce la vie est un Sport"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7394769247995514144" data-video-id="7394769247995514144" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> LE JOUEUR MYSTÈRE 😶‍🌫️🔥⚽️ : RONALDINHO🔥⚽️ <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="tendance" target="_blank" href="https://www.tiktok.com/tag/tendance?refer=embed">#tendance</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7394769389603588897?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
+                    <div class="card text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7390690088742685985" data-video-id="7390690088742685985" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> POURQUOI DIDIER DROGBA EST LE VRAI GOT D’AFRIQUE🐐⚽️🇨🇮❓ <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="sport" target="_blank" href="https://www.tiktok.com/tag/sport?refer=embed">#sport</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7390690171655703329?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
+                    <div class="card text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7389212322113326368" data-video-id="7389212322113326368" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> 🚨LA GROSSE FRAUDE CHELSEA VS BARCELONE 2009❌⚽️  CHAMPIONS LEAGUE🏆 <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="sport" target="_blank" href="https://www.tiktok.com/tag/sport?refer=embed">#sport</a> <a title="championsleague" target="_blank" href="https://www.tiktok.com/tag/championsleague?refer=embed">#championsleague</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7389212422269045537?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--meet our team carousel style end-->
+
 
         <!--faq section start-->
         <div id="faq" class="ptb-100 ">
