@@ -22,4 +22,4 @@ Route::get('/test', function () {
 });
 
 
-Route::get('/', [FrontController::class, 'index'])->name('index');
+Route::get('/tests', [FrontController::class, 'index'])->name('index');
