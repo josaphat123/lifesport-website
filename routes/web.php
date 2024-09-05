@@ -17,9 +17,8 @@ use App\Http\Controllers\{
 |
 */
 
-Route::get('/test', function () {
-    return 'Home Page biennnn';
-});
+// Route::get('/test', function () {
+//     return 'Home Page ';
+// });
 
-
-Route::get('/tests', [FrontController::class, 'index'])->name('index');
+Route::get('/', [FrontController::class, 'index'])->name('index');
