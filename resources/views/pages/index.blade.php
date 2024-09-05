@@ -426,7 +426,7 @@
 
                             <div class="card-body text-left px-5 yearly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span> Durée Totale</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
@@ -438,8 +438,7 @@
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>1 Post épinglé</span> 2J</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseaux</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>0</span> Affiche Pub</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -452,7 +451,7 @@
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Story</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optiisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
@@ -462,8 +461,11 @@
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglés</span> 2J</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseau</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Pré Stratégique</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Bilan</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -521,21 +523,19 @@
 
                             <div class="card-body text-left px-5 yearly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span> Durée Totale</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>7J</span> Story &amp; <span>30J</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>1 Vidéo Promo</span> Offerte</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Campagnes Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglé</span> 3J</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>2h Live</span> sur un Réseau</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -546,22 +546,23 @@
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Durée Totale</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optiisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Story &amp; <span>Permanent</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5 Affiches Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>2 Contenu Collab</span> Crées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7 Campagnes Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglés</span> 4J</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5h Live</span> sur un Réseaux</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Pré Stratégique</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Pré Stratégique</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Bilan</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -618,20 +619,19 @@
 
                             <div class="card-body text-left px-5 yearly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Durée Totale</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>15</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>2 Vidéo Promo</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglé</span> 3J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2h Live</span> sur un Réseau</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3h Live</span> sur un Réseau</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -646,20 +646,19 @@
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>TOUT</span> Plateformes utilisées</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Story &amp; <span>Permanent</span> Posts</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>10 Affiches Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5 Contenu Collab</span> Crées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>12 Campagnes Pub</span> Offertes</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>5 Post épinglés</span> 30J</li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>15h Live</span> Réseaux au choix</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Pré Stratégique</span></li>
                                     <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Bilan</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
                                 </ul>
                                 <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
@@ -683,7 +682,7 @@
                     </div>
                     <div class="col-12">
                         <div class="support-cta mt-5">
-                            <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Choose Your <a href="pricing-comparison.html" class="ml-2">Compare Hosting Plans</a></h5>
+                            <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Clique ici <a href="#" class="ml-2">Choisi ton Forfait</a></h5>
                         </div>
                     </div>
                 </div>
@@ -697,9 +696,9 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h2>Hosting Features For Your Big Ideas</h2>
-                            <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
-                                imperatives through open-source quickly niche markets.</p>
+                            <h2>Pourquoi nous choisir ?</h2>
+                            <p class="lead">En plus de notre rapidité et de notre qualité de service, nos coûts publicitaires
+                            sont relativement bas, permetant à tous d'en profiter.</p>
                         </div>
                     </div>
                 </div>
