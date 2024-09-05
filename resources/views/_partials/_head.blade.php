@@ -29,4 +29,8 @@
     <link rel="stylesheet" href="{{ asset('lifesport/assets/css/main.css') }}">
     <!-- endbuild -->
     <link rel="stylesheet" href="{{ asset('lifesport/assets/css/custom.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Qwigley&display=swap" rel="stylesheet">
 </head>

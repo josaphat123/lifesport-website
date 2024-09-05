@@ -117,216 +117,15 @@
         <!--domain name block end-->
 
         <!--feature section start-->
-        <section class="feature-section ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-6">
-                        <div class="cta-new-wrap">
-                            <h2>Qui Sommes-nous ?</h2>
-                            <p class="lead">Crée et lancée en Avril 2023, <strong>LIFESPORT</strong> est avant tout une <strong>Web TV Sportive</strong> ayant pour mission première et à long terme, la mise 
-                                en lumière du <strong>Sport Africain</strong> dans sa globalité.
-                                {{-- <br><br>
-                                Notre particularité se trouve dans la régularité à produire un contenu éducatif de qualité.</p> --}}
-                            <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="fas fa-globe mr-2 color-primary"></span><strong>Une Audience</strong> partout dans le Monde.</li>
-                                <li class="py-1"><span class="fas fa-user-friends mr-2 color-primary"></span><strong>+ 2.5 Millions</strong> de personnes touchées par jours.</li>
-                                <li class="py-1"><span class="fas fa-share-alt mr-2 color-primary"></span><strong>LIFESPORT</strong> est présent sur 5 Grands réseaux réseaux.</li>
-                                <li class="py-1"><span class="fas fa-clock mr-2 color-primary"></span><strong>Disponible</strong> 24h24 et 7jours/7.</li>
-                                {{-- <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Mise en avant</strong> des talents africains émergents</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Reportages exclusifs</strong> sur des événements sportifs africains</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Contenu éducatif</strong> et analytique pour les fans et les athlètes</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Interviews</strong> avec des figures sportives emblématiques</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Couverture 24/7</strong> des actualités sportives africaines</li> --}}
-                            </ul>
-                            <div class="action-btns mt-4">
-                                <a href="#download" class="btn primary-solid-btn animated-btn mr-lg-3">Boostez votre visibilité !</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 div-im-1" >
-                        <div class="cta-new-wrap">
-                            <img src="{{ asset('lifesport/assets/img/img-fond/img-1.jpg') }}" alt="hosting" class="img-fluid img-1" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            @include('_partials.about-us')
         <!--feature section end-->
 
         <!--promo-section section start-->
-        <section class="promo-section ptb-50">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-md-0 mb-lg-5">
-                            <h2>Propulsez votre marque !</h2>
-                            <p class="lead">Touchez au moins <strong>300K personnes/Jours</strong> grâce à <strong>LIFESPORT SERVICES</strong>.
-                            <br>
-                            Nous maximisons l'engagement autour de votre marque et bénéficiez de notre expertise pour propulser vos activités <strong>24h/24, 7j/7 !</strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="fas fa-chart-line text-white"></span>
-                                </div>
-                                <h5>Publicité Internationale</h5>
-                                <p>Touchez au moins <strong>100K Personnes/Jours</strong> dans le Pays ou la Ville de votre choix.
-                                <br>
-                                Sans vous déplacer !</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="fas fa-globe text-white"></span>
-                                </div>
-                                <h5>Community Management Avancé</h5>
-                                <p>Laissez-nous façonner votre image en ligne, tout en développant une audience
-                                fidèle et une communauté engagée.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                        <a href="#">
-                            <div class="single-promo-2 single-promo-hover rounded-custom text-center white-bg p-5 h-100">
-                                <div class="circle-icon">
-                                    <span class="fas fa-code text-white"></span>
-                                </div>
-                                <h5>Développement d'Applications</h5>
-                                <p>Créez absolument un <strong>Site Web</strong> ou une <strong>Application Mobile</strong> pour booster votre réputation.
-                                <strong>LIFESPORT s'en charge !</strong></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+            @include('_partials.boost-services')
         <!--promo-section section end-->
 
         <!--services section start-->
-        <section class="our-services ptb-100 gray-light-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h2>L'intégralité de nos Services</h2>
-                            <p class="lead">Accédez à l'expertise sur-mesure en bénéficiant de nos services variés.
-                            <br>
-                            Votre succès commence ici !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/solutions-digitales.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Solutions Digitales.</h3>
-                                <span class="services-animation">-Développement d'applications.</span>
-                                <span class="services-animation">-Création de Sites Web.</span>
-                                <span class="services-animation">-Maintenance Informatique.</span>
-                                <span class="services-animation">-Analyse de données(Power BI).</span>
-                                <span class="services-animation">-Support Technique(24h/24).</span>
-                                
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="{{ asset('lifesport/assets/img/services-img/production-multimedia.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Production Multimédia.</h3>
-                                <span class="services-animation">-Conception Graphique(Visuels).</span>
-                                <span class="services-animation">-Réalisation Vidéos Pro.</span>
-                                <span class="services-animation">-Photographie(Shooting Photo)</span>
-                                <span class="services-animation">-Animation 2D/3D.</span>
-                                <span class="services-animation">-Maquette UX/UI Design.</span>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/marketing-digital.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Marketing Digital</h3>
-                                <span class="services-animation">-Campagnes Publicitaires Ciblées.</span>
-                                <span class="services-animation">-Community Management.</span>
-                                <span class="services-animation">-Marketing de Contenu/d'Influence</span>
-                                <span class="services-animation">-Coaching en Monétisation.</span>
-                                <span class="services-animation">-Optimisation Référencement SEO.</span>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/services-bureautique.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Services Bureautique</h3>
-                                <span class="services-animation">-Formation MS Word.</span>
-                                <span class="services-animation">-Formation MS Excel.</span>
-                                <span class="services-animation">-Formation MS PowerPoint.</span>
-                                <span class="services-animation">-Formation MS Teams.</span>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/developpement-logiciel.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Développement Logiciels</h3>
-                                <span class="services-animation">-Création de Logiciels sur mesure.</span>
-                                <span class="services-animation">-Automatisation de Processus.</span>
-                                <span class="services-animation">-Gestion de Projets Logiciels.</span>
-                                <span class="services-animation">-Prototypage d'Application.</span>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="{{ asset('lifesport/assets/img/services-img/cloud.svg') }}" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                            <div class="service-plane-content text-left liste-services">
-                                <h3 class="h5 text-center">Cloud &amp; Hébergement</h3>
-                                <p class="text-left liste-services">
-                                <span class="services-animation">-Hébergement d'APP dans le Cloud</span>
-                                <span class="services-animation">-Gestion de Cloud Services.</span>
-                                <span class="services-animation">-Maintenance Cloud Services.</span>
-                                <span class="services-animation">-Cloud Infrastrcuture.</span>
-                            </div>
-                            <div class="action-wrap mt-3 card-services">
-                                <a href="#" class="btn-link details-card-services">Voir les détails<span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
+            @include('_partials.services')
         <!--services section end-->
 
         <!--call to action section start-->
@@ -353,631 +152,121 @@
         <!--call to action section end-->
 
         <!--pricing with switch section start-->
-        <section class="pricing-section ptb-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-5">
-                            <h2>-75% de Coûts Publicitaires !</h2>
-                            <p class="lead">
-                                Faites le premier pas avec <strong>-75% de réduction</strong> sur nos services Publicitaires.
-                                <br>
-                                Débloquez votre visibilité !
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-10 col-sm-8 col-md-12">
-                        <div class="text-center mb-5 radio-box-wrap billingCycle">
-                            <div class="single-radio-box">
-                                <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                                <label for="monthly-plan"><span class="custom-check"></span>Pack FAST BOOST</label>
-                            </div>
-                            <div class="single-radio-box">
-                                <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                                <label for="yearly-plan"><span class="custom-check"></span>Pack INFLUENCE</label>
-                            </div>
-                            <div class="single-radio-box">
-                                <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                                <label for="biannual-plan"><span class="custom-check"></span>Pack MARKET LEADER</label>
-                            </div>
-                            <div class="single-radio-box">
-                                <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                                <label for="triennial-plan"><span class="custom-check"></span>COMMUNITY MANAGEMENT</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card text-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Forfait Basique</h5>
-                                <p class="mb-0">Visibilité rapide !</p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">10.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 yearly-price">70.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 biannual-price">250.000<span>/FCFA</span></div>
-                                <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
-                            </div>
-                            
-                            {{-- Test monthly --}}
-                            <div class="card-body text-left px-5 monthly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1</span> Plateforme utilisée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Story & Posts</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Rapport performance</span> Offert</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>20min Live</span> sur un Réseau</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Post épinglé</span> 2J</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test yearly --}}
-
-                            <div class="card-body text-left px-5 yearly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span> Story &amp; <span>30J</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Vidéo Promo</span> Offerte</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Post épinglé</span> 2J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseaux</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>0</span> Affiche Pub</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                             {{-- Test biannual --}}
-
-                             <div class="card-body text-left px-5 biannual-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Contenu Collab</span> Crées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglés</span> 2J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseau</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Pré Stratégique</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Bilan</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test Triennial --}}
-
-                            <div class="card-body text-left px-5 triennial-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card popular-price text-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Forfait Standard <span class="badge color-1 color-1-bg">Populaire</span></h5>
-                                <p class="mb-0">Gagnez audience &amp; résultats ! </p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">25.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 yearly-price">120.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 biannual-price">500.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 triennial-price">$429<span>/triennial</span></div>
-                            </div>
-                            {{-- Test monthly --}}
-                            <div class="card-body text-left px-5 monthly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Plateforme utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3J</span> Story &amp; <span>1 Semaine</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Rapport performance</span> Offert</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>20min Live</span> sur un Réseau</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Post épinglé</span> 2J</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test yearly --}}
-
-                            <div class="card-body text-left px-5 yearly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7J</span> Story &amp; <span>30J</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Vidéo Promo</span> Offerte</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglé</span> 3J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2h Live</span> sur un Réseau</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                             {{-- Test biannual --}}
-
-                             <div class="card-body text-left px-5 biannual-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Story &amp; <span>Permanent</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Affiches Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Contenu Collab</span> Crées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglés</span> 4J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5h Live</span> sur un Réseaux</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Pré Stratégique</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Réunion Bilan</span></li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test Triennial --}}
-
-                            <div class="card-body text-left px-5 triennial-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card text-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Forfait Premimiun</h5>
-                                <p class="mb-0">Boostez votre influence !</p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">50.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 yearly-price">180.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 biannual-price">1.000.000<span>/biannual</span></div>
-                                <div class="price text-center mb-0 triennial-price">$739<span>/triennial</span></div>
-                            </div>
-                            {{-- Test monthly --}}
-                            <div class="card-body text-left px-5 monthly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateforme utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5J</span> Story &amp; <span>20J</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Rapport performance</span> Offerte</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>35min Live</span> sur un Réseau</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Post épinglé</span> 2J</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test yearly --}}
-
-                            <div class="card-body text-left px-5 yearly-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Vidéo Promo</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglé</span> 3J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3h Live</span> sur un Réseau</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                             {{-- Test biannual --}}
-
-                             <div class="card-body text-left px-5 biannual-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Durée Totale</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>20</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>25</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>TOUT</span> Plateformes utilisées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Story &amp; <span>Permanent</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10 Affiches Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Contenu Collab</span> Crées</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>12 Campagnes Pub</span> Offertes</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Post épinglés</span> 30J</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15h Live</span> Réseaux au choix</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Pré Stratégique</span></li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Bilan</span></li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-
-                            {{-- Test Triennial --}}
-
-                            <div class="card-body text-left px-5 triennial-price">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
-                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
-                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="support-cta mt-5">
-                            <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Clique ici <a href="#" class="ml-2">Choisi ton Forfait</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            @include('_partials.price-packs')
         <!--pricing with switch section end-->
 
         <!--feature section start-->
-        <section class="feature-section ptb-100 gray-light-bg">
+            @include('_partials.why-choose')
+        <!--feature section end-->
+
+        <!--call to action new style start-->
+        <section class="call-to-action ptb-100" style="background: linear-gradient(80deg, #f15d04, #b76a0c) !important">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-5">
-                            <h2>Pourquoi nous choisir ?</h2>
-                            <p class="lead">En plus de notre rapidité et de notre qualité de service, nos coûts publicitaires
-                            sont relativement bas, permetant à tous d'en profiter.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="fas fa-bolt icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Rapidité</h5>
-                                <p><strong>LIFESPORT</strong> se caractérise par sa rapidité à mettre en place des solutions innovantes.
-                                Vous obtenez des résultats visibles en un temps record.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="ti-thumb-up icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Fiabilité (Toujours bien fait !)</h5>
-                                <p>Nous mettons l'accent sur la qualité du travail fourni. Et nous sommes attentifs aux retours clients.
-                                Ce qui nous confère une constante amélioration.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="fas fa-star icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Popularité</h5>
-                                <p>Notre Audience de +10 Millions de personnes est un atout majeur sur le marché.
-                                Promouvoir les produits et services clients devient un jeu en un clic.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="ti-timer icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Ponctualité(100%)</h5>
-                                <p>Respecter les engagements est un principe formel chez <strong>LIFESPORT</strong>.
-                                Nous nous efforçons à disponible pour répondre aux besoins de nos clients.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="fas fa-lightbulb icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Innovation</h5>
-                                <p>Nous pronons l'Amélioration Continue, et chaque service fourni est une occasion
-                                de se renouveler, se réinventer pour toujours offrir un service de qualité.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="features-box p-4">
-                            <div class="features-box-icon">
-                                <span class="fas fa-award icon-md color-primary"></span>
-                            </div>
-                            <div class="features-box-content">
-                                <h5>Reconnaissance</h5>
-                                <p><strong>LIFESPORT</strong> est une famille, et nos clients en font partie. Nous sommes unis par le Sport
-                                et chaque collaboration est un match dont on oubliera jamais les acteurs.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--feature section end-->
-
-        <!--call to action section start-->
-        <section class="call-to-action ptb-100" style="background: url('lifesport/assets/img/img-fond/img-3.jpg')no-repeat center center / cover">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-md-12 col-lg-8">
-                        <div class="call-to-action-content text-white">
+                        <div class="cta-new-wrap text-white text-center">
                             <h2 class="text-white">BOOSTEZ VOTRE CROISSANCE !</h2>
-                            <p>Bénéficiez de notre expertise sur mesure et prenez le contrôle de votre succès.
+                            <p>Optez pour l'expertise sur mesure et prenez le contrôle de votre succès.
                                 <br> <strong>Horaire : Lun-Ven 8h00-19h00 Pm</strong> | <strong>Support Client : Tous les jours 
                                 24h/24 7jours/7</strong>
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-4">
-                        <div class="action-btns mt-md-4 text-md-right text-lg-right text-sm-left">
-                            <a href="#" class="btn solid-white-btn mr-1">Lancer Chat !</a>
-                            <a href="#" class="btn outline-white-btn">Envoyer un E-mail</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--call to action section end-->
-
-        <!--meet our team carousel style start-->
-        <section class="our-team-section ptb-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-8">
-                        <div class="section-heading text-center mb-5">
-                            <h2>Découvrez notre équipe</h2>
-                            <p>Nous sommes constitués d'Espert en différents domaines d'activités.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
-                        <div class="owl-carousel owl-theme team-member-carousel custom-dot dot-bottom-center">
-                            <div class="item">
-                                <div class="staff-member">
-                                    <div class="card text-center">
-                                        <img src="{{ asset('lifesport/assets/img/team/ouraga.jpg') }}" alt="team image" class="card-img-top">
-                                        <div class="card-body">
-                                            <h5 class="teacher mb-0">Jean-Philippe OURAGA</h5>
-                                            <span>Full Stack Developper & Data Engineer</span>
-                                            <ul class="list-inline pt-2 social">
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-facebook"></span></a></li>
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-linkedin"></span></a></li>
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-dribbble"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay d-flex align-items-center justify-content-center">
-                                        <div class="overlay-inner">
-                                            <p class="teacher-quote">"Developpement d'Applications | Cloud | Data Ingenierie sont mes domaines de prédilections." </p><a href="#" class="teacher-name">
-                                                <h5 class="mb-0 teacher text-white">Jean-Philippe OURAGA</h5>
-                                            </a>
-                                            <span class="teacher-field text-white">Full Stack Developper & Data Engineer</span>
-                                            <ul class="list-inline py-4 social">
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-facebook"></span></a></li>
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-linkedin"></span></a></li>
-                                                <li class="list-inline-item"><a href="#" target="_blank"><span
-                                                        class="ti-dribbble"></span></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="action-btns mt-4">
+                                <a href="#" class="btn solid-white-btn animated-btn mr-lg-3">Commencez maintenant !</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!--call to action new style end-->
+
+        <!--meet our team carousel style start-->
+            @include('_partials.teams')
         <!--meet our team carousel style end-->
 
 
 
-                <!--meet our team carousel style start-->
-        <section class="our-team-section ptb-100">
+        <!-- Pour nos vidéos -->
+        <section class="our-team-section ptb-50">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-8">
                         <div class="section-heading text-center mb-5">
                             <h2>Vidéos Populaires</h2>
-                            <p>"Parce la vie est un Sport"</p>
+                            <p>C'est pourquoi ensemble disons "<span class="lifesport-name">LIFESPORT</span>"
+                            <br>
+                            <span class="lifesport-slogan">"Parce la vie est un Sport..."</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="card text-center">
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7394769247995514144" data-video-id="7394769247995514144" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> LE JOUEUR MYSTÈRE 😶‍🌫️🔥⚽️ : RONALDINHO🔥⚽️ <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="tendance" target="_blank" href="https://www.tiktok.com/tag/tendance?refer=embed">#tendance</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7394769389603588897?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                
+                <div class="card-container video">
+                    
+                    {{-- 1er vidéo --}}
+                    <div class="card-video text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7316223273459649824" data-video-id="7316223273459649824" style="max-width: 605px;min-width: 325px;" >
+                            <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a>RONALDO,  INCONTESTABLEMENT LE GOAT🔥🐐⚽️⁉️
+                                <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> 
+                                <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a>
+                                <a title="foot" target="_blank" href="https://www.tiktok.com/tag/foot?refer=embed">#foot</a>
+                                <a title="legend" target="_blank" href="https://www.tiktok.com/tag/legend?refer=embed">#legend</a>
+                                <a title="ronaldo" target="_blank" href="https://www.tiktok.com/tag/ronaldo?refer=embed">#ronaldo</a>
+                                <a title="messi" target="_blank" href="https://www.tiktok.com/tag/messi?refer=embed">#messi</a>
+                                <a title="gaot" target="_blank" href="https://www.tiktok.com/tag/gaot?refer=embed">#gaot</a>
+                                <a title="cr7" target="_blank" href="https://www.tiktok.com/tag/cr7?refer=embed">#cr7</a>
+                                <a title="cristianoronaldo" target="_blank" href="https://www.tiktok.com/tag/cristianoronaldo?refer=embed">#cristianoronaldo</a>
+                                <a title="ronaldofans" target="_blank" href="https://www.tiktok.com/tag/ronaldofans?refer=embed">#ronaldofans</a>
+                                <a title="goals" target="_blank" href="https://www.tiktok.com/tag/goals?refer=embed">#goals</a>
+                                <a title="championsleague" target="_blank" href="https://www.tiktok.com/tag/championsleague?refer=embed">#championsleague</a>
+                                <a target="_blank" title="♬ Sunrise - Official Sound Studio" href="https://www.tiktok.com/music/Sunrise-6618871733141113604?refer=embed">♬ Sunrise - Official Sound Studio</a>
+                            </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
-                    <div class="card text-center">
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7390690088742685985" data-video-id="7390690088742685985" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> POURQUOI DIDIER DROGBA EST LE VRAI GOT D’AFRIQUE🐐⚽️🇨🇮❓ <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="sport" target="_blank" href="https://www.tiktok.com/tag/sport?refer=embed">#sport</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7390690171655703329?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+                    {{-- 2eme video --}}
+                    <div class="card-video text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7334262473605827872" data-video-id="7334262473605827872" style="max-width: 605px;min-width: 325px;" > 
+                            <section>
+                                <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a>IL N’YA QUE DEUX GOATS🔥🐐⚽️ : LE SEPT7️⃣🇵🇹 et le Dix🔟🇦🇷
+                                    <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a>
+                                    <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a>
+                                    <a title="foot" target="_blank" href="https://www.tiktok.com/tag/foot?refer=embed">#foot</a>
+                                    <a title="goats" target="_blank" href="https://www.tiktok.com/tag/goats?refer=embed">#goats</a>
+                                    <a title="messi" target="_blank" href="https://www.tiktok.com/tag/messi?refer=embed">#messi</a>
+                                    <a title="ronaldo" target="_blank" href="https://www.tiktok.com/tag/ronaldo?refer=embed">#ronaldo</a>
+                                    <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7334262533336894241?refer=embed">♬ son original - LiFe_SpOrT</a>
+                                </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
-                    <div class="card text-center">
-                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7389212322113326368" data-video-id="7389212322113326368" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> 🚨LA GROSSE FRAUDE CHELSEA VS BARCELONE 2009❌⚽️  CHAMPIONS LEAGUE🏆 <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a> <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> <a title="sport" target="_blank" href="https://www.tiktok.com/tag/sport?refer=embed">#sport</a> <a title="championsleague" target="_blank" href="https://www.tiktok.com/tag/championsleague?refer=embed">#championsleague</a> <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7389212422269045537?refer=embed">♬ son original - LiFe_SpOrT</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    
+                    {{-- 3eme video --}}
+                    <div class="card-video text-center">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lifes_sport/video/7322812663124331808" data-video-id="7322812663124331808" style="max-width: 605px;min-width: 325px;" >
+                            <section> <a target="_blank" title="@lifes_sport" href="https://www.tiktok.com/@lifes_sport?refer=embed">@lifes_sport</a> IL ETAIT UNE FOIS : L’ARTISTE ET LE GÉNIE🔥⚽️❤️ LIONEL MESSI ET RONALDINHO 🔥
+                                <a title="lifesport" target="_blank" href="https://www.tiktok.com/tag/lifesport?refer=embed">#lifesport</a> 
+                                <a title="sport" target="_blank" href="https://www.tiktok.com/tag/sport?refer=embed">#sport</a>
+                                <a title="football" target="_blank" href="https://www.tiktok.com/tag/football?refer=embed">#football</a>
+                                <a title="foot" target="_blank" href="https://www.tiktok.com/tag/foot?refer=embed">#foot</a>
+                                <a title="messi" target="_blank" href="https://www.tiktok.com/tag/messi?refer=embed">#messi</a>
+                                <a title="ronaldinho" target="_blank" href="https://www.tiktok.com/tag/ronaldinho?refer=embed">#ronaldinho</a>
+                                <a target="_blank" title="♬ son original - LiFe_SpOrT" href="https://www.tiktok.com/music/son-original-7322812687405140769?refer=embed">♬ son original - LiFe_SpOrT</a>
+                            </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
+                </div>
+
+                <div class="action-btns galerie mt-4">
+                    <a href="#" class="btn primary-solid-btn galerie">Accéder à la Galerie</a>
                 </div>
             </div>
         </section>
-        <!--meet our team carousel style end-->
+        <!-- Fin Pour nos vidéos-->
 
 
         <!--faq section start-->
-        <div id="faq" class="ptb-100 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading mb-5">
-                            <h2>Frequently Asked Queries</h2>
-                            <p>Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize
-                                frictionless expertise whereas tactical relationships. Still have questions? <a href="#contact" class="page-scroll">Contact us</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
-                        <div id="accordion-one" class="accordion accordion-faq">
-                            <div class="card mb-0">
-                                <a class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-                                    <h6 class="mb-0 d-inline-block">What is Web Hosting?
-                                    </h6>
-                                </a>
-                                <div id="collapseOne" class="collapse" data-parent="#accordion-one">
-                                    <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table, raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-0">
-                                <a class="card-header collapsed" data-toggle="collapse" href="#collapseTwo">
-                                    <h6 class="mb-0 d-inline-block">What Are the
-                                        Different Types of Web Hosting Products DreamHost Offers?</h6>
-                                </a>
-                                <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
-                                    <div class="card-body">
-                                        <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                                            raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-0">
-                                <a class="card-header collapsed" data-toggle="collapse" href="#collapseThree">
-                                    <h6 class="mb-0 d-inline-block">How Do I Buy a Domain
-                                        Name?
-                                    </h6>
-                                </a>
-                                <div id="collapseThree" class="collapse" data-parent="#accordion-one">
-                                    <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table, raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-0">
-                                <a class="card-header collapsed" data-toggle="collapse" href="#collapseFour">
-                                    <h6 class="mb-0 d-inline-block">Can You Help Me
-                                        Understand More About WordPress?
-                                    </h6>
-                                </a>
-                                <div id="collapseFour" class="collapse" data-parent="#accordion-one">
-                                    <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+        @include('_partials.faq')
         <!--faq section end-->
 @endsection

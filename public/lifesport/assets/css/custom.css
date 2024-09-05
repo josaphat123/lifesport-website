@@ -85,3 +85,66 @@
     transform: translateY(-10px);
     transition-duration: 0.3s;
 }
+
+/* Conteneur principal pour les cartes */
+.card-container.video {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes sur les grands écrans */
+    gap: 20px; /* Espacement entre les cartes */
+    padding: 20px;
+}
+
+/* Style pour chaque card */
+.card-video {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animation hover pour agrandir légèrement les cartes */
+.card-video:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries pour les petits écrans */
+@media (max-width: 1200px) {
+    .card-container.video {
+        padding:0;
+        grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne pour les écrans intermédiaires */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container.video {
+        padding: 0;
+        grid-template-columns: 1fr; /* 1 carte par ligne pour les petits écrans */
+    }
+}
+
+
+.action-btns.galerie{
+    text-align: center;
+}
+.primary-solid-btn.galerie:hover{
+    border:none;
+}
+
+/* Pour lifesport et le Slogan */
+
+.lifesport-name{
+    font-size: 20px;
+    color: #F45827;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lifesport-slogan{
+    font-size: 32px;
+    font-family: "Qwigley", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
