@@ -394,80 +394,290 @@
                         <div class="card text-center single-pricing-pack">
                             <div class="pt-5">
                                 <h5 class="mb-0">Forfait Basique</h5>
-                                <p class="mb-0">Conçu pour les très petits budgets</p>
+                                <p class="mb-0">Visibilité rapide !</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
                                 <div class="price text-center mb-0 monthly-price">10.000<span>FCFA</span></div>
-                                <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+                                <div class="price text-center mb-0 yearly-price">70.000<span>FCFA</span></div>
+                                <div class="price text-center mb-0 biannual-price">250.000<span>/FCFA</span></div>
                                 <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
                             </div>
-                            <div class="card-body">
+                            
+                            {{-- Test monthly --}}
+                            <div class="card-body text-left px-5 monthly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><span>2</span>Posts</li>
-                                    <li><span>2</span>Story</li>
-                                    <li><span>Lien de redirection</span> sur les Posts</li>
-                                    <li><span>1 Free</span> Domain included</li>
-                                    <li><span>Super Fast</span> SSD Storage</li>
-                                    <li><span>Free</span> SSL Certificate</li>
-                                    <li>99.95% Uptime</li>
-                                    <li>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1</span> Plateforme utilisée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Story & Posts</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Rapport performance</span> Offert</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>20min Live</span> sur un Réseau</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Post épinglé</span> 2J</li>
                                 </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Payer avec -75%</a>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
+
+                            {{-- Test yearly --}}
+
+                            <div class="card-body text-left px-5 yearly-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4J</span> Story &amp; <span>30J</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Vidéo Promo</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Post épinglé</span> 2J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseaux</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                             {{-- Test biannual --}}
+
+                             <div class="card-body text-left px-5 biannual-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optiisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Contenu Collab</span> Crées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglés</span> 2J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1h Live</span> sur un Réseau</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                            {{-- Test Triennial --}}
+
+                            <div class="card-body text-left px-5 triennial-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="card popular-price text-center single-pricing-pack">
                             <div class="pt-5">
-                                <h5 class="mb-0">Cloud Business <span class="badge color-1 color-1-bg">Popular</span></h5>
-                                <p class="mb-0">High traffic corporate sites</p>
+                                <h5 class="mb-0">Forfait Standard <span class="badge color-1 color-1-bg">Populaire</span></h5>
+                                <p class="mb-0">Gagnez audience &amp; résultats ! </p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$49<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price">$159<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$299<span>/biannual</span></div>
+                                <div class="price text-center mb-0 monthly-price">25.000<span>FCFA</span></div>
+                                <div class="price text-center mb-0 yearly-price">120.000<span>FCFA</span></div>
+                                <div class="price text-center mb-0 biannual-price">500.000<span>FCFA</span></div>
                                 <div class="price text-center mb-0 triennial-price">$429<span>/triennial</span></div>
                             </div>
-                            <div class="card-body">
+                            {{-- Test monthly --}}
+                            <div class="card-body text-left px-5 monthly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><span>30</span> Hosted Domains</li>
-                                    <li><span>75 GB</span> RAID 10 Storage</li>
-                                    <li><span>700 GB</span> Bandwidth</li>
-                                    <li><span>3 Free</span> Domain included</li>
-                                    <li><span>Super Fast</span> SSD Storage</li>
-                                    <li><span>Free</span> SSL Certificate</li>
-                                    <li>99.95% Uptime</li>
-                                    <li>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Plateforme utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3J</span> Story &amp; <span>1 Semaine</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Rapport performance</span> Offert</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>20min Live</span> sur un Réseau</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>1 Post épinglé</span> 2J</li>
                                 </ul>
-                                <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Payer avec -75%</a>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                            {{-- Test yearly --}}
+
+                            <div class="card-body text-left px-5 yearly-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Semaine</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>7J</span> Story &amp; <span>30J</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Vidéo Promo</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Post épinglé</span> 3J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2h Live</span> sur un Réseau</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                             {{-- Test biannual --}}
+
+                             <div class="card-body text-left px-5 biannual-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optiisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15J</span> Story &amp; <span>Permanent</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Affiches Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Contenu Collab</span> Crées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglés</span> 4J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5h Live</span> sur un Réseaux</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Pré Stratégique</span></li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                            {{-- Test Triennial --}}
+
+                            <div class="card-body text-left px-5 triennial-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="card text-center single-pricing-pack">
                             <div class="pt-5">
-                                <h5 class="mb-0">Cloud Enterprise</h5>
-                                <p class="mb-0">Enterprise content management</p>
+                                <h5 class="mb-0">Forfait Premimiun</h5>
+                                <p class="mb-0">Boostez votre influence !</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$69<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price">$259<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$499<span>/biannual</span></div>
+                                <div class="price text-center mb-0 monthly-price">50.000<span>FCFA</span></div>
+                                <div class="price text-center mb-0 yearly-price">180.000<span>FCFA</span></div>
+                                <div class="price text-center mb-0 biannual-price">1.000.000<span>/biannual</span></div>
                                 <div class="price text-center mb-0 triennial-price">$739<span>/triennial</span></div>
                             </div>
-                            <div class="card-body">
+                            {{-- Test monthly --}}
+                            <div class="card-body text-left px-5 monthly-price">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
-                                    <li><span>60</span> Hosted Domains</li>
-                                    <li><span>175 GB</span> RAID 10 Storage</li>
-                                    <li><span>1500 GB</span> Bandwidth</li>
-                                    <li><span>6 Free</span> Domain included</li>
-                                    <li><span>Super Fast</span> SSD Storage</li>
-                                    <li><span>Free</span> SSL Certificate</li>
-                                    <li>99.95% Uptime</li>
-                                    <li>24/7 Phone Support</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3</span> Plateforme utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5J</span> Story &amp; <span>20J</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Rapport performance</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>35min Live</span> sur un Réseau</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Affiche Pub</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Campagne Pub</span> Offerte</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>1 Post épinglé</span> 2J</li>
                                 </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Payer avec -75%</a>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                            {{-- Test yearly --}}
+
+                            <div class="card-body text-left px-5 yearly-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span>Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>4</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span> Story &amp; <span>Permanent</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Affiches Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2 Vidéo Promo</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Post épinglé</span> 3J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2h Live</span> sur un Réseau</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10J</span>Durée Totale</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                             {{-- Test biannual --}}
+
+                             <div class="card-body text-left px-5 biannual-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>20</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>25</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>TOUT</span> Plateformes utilisées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur les Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Contenu Exclusif</span> Offert</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Story &amp; <span>Permanent</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10 Affiches Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Promo</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>3 Vidéo Scénario</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Contenu Collab</span> Crées</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>10 Campagnes Pub</span> Offertes</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>+ Campagne Multi Post</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Analyse Post Pub </span> Effectuée</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>5 Post épinglés</span> 30J</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>15h Live</span> Réseaux au choix</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>30J</span> Durée Totale</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Pré Stratégique</span></li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Réunion Bilan</span></li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
+                            </div>
+
+                            {{-- Test Triennial --}}
+
+                            <div class="card-body text-left px-5 triennial-price">
+                                <ul class="list-unstyled mb-4 pricing-feature-list">
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Story</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>2</span> Posts</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Optimisation </span> de Contenu</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>Mention & Tag</span> sur le Post</li>
+                                    <li><i class="ti-check-box color-5 pr-3"></i><span>24h</span> Visibilité</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i><span>Free</span> SSL Certificate</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>99.95% Uptime</li>
+                                    <li class="del"><i class="ti-close color-6 pr-3"></i>24/7 Phone Support</li>
+                                </ul>
+                                <a href="#" class="btn outline-btn mb-3 btn-block" target="_blank">Payer avec -75%</a>
                             </div>
                         </div>
                     </div>
