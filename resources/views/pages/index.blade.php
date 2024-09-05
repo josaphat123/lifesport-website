@@ -97,18 +97,6 @@
                                     </div>
                                 </a>
                             </li>
-                            {{-- <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
-                                    <div class="single-domain">
-                                    <img src="{{ asset('lifesport/assets/img/online.png') }}" alt="domain" class="img-fluid" />
-                                        <div class="domain-price">
-                                            <h6 class="sell-price">$2.56 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$29.95</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li> --}}
                         </ul>
                     </div>
                 </div>

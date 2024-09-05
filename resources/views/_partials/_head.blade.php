@@ -32,5 +32,5 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Qwigley&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=M+PLUS+1:wght@100..900&family=Permanent+Marker&family=Qwigley&family=Reddit+Sans+Condensed:wght@200..900&family=Salsa&display=swap" rel="stylesheet">
 </head>
