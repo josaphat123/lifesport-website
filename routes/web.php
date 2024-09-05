@@ -18,7 +18,7 @@ use App\Http\Controllers\{
 */
 
 Route::get('/test', function () {
-    return 'Home Page';
+    return 'Home Page biennnn';
 });
 
 
