@@ -46,6 +46,43 @@
                                     </div>
                                 </div>
                             </div>
+                            {{--  --}}
+                            <div class="item">
+                                <div class="staff-member">
+                                    <div class="card text-center">
+                                        <img src="{{ asset('lifesport/assets/img/team/ben.jpg') }}" alt="team image" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="teacher mb-0">Aengoue BEN</h5>
+                                            <span>UX/UI Designer | 3D Animator</span>
+                                            <ul class="list-inline pt-2 social">
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-facebook"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-linkedin"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-dribbble"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="overlay d-flex align-items-center justify-content-center">
+                                        <div class="overlay-inner">
+                                            <p class="teacher-quote">"Le Graphisme et la modélisation 3D sont mes spécialités." </p><a href="#" class="teacher-name">
+                                                <h5 class="mb-0 teacher text-white">Aengoue BEN</h5>
+                                            </a>
+                                            <span class="teacher-field text-white">UX/UI Designer | 3D Animator</span>
+                                            <ul class="list-inline py-4 social">
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-facebook"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-linkedin"></span></a></li>
+                                                <li class="list-inline-item"><a href="#" target="_blank"><span
+                                                        class="ti-dribbble"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{--  --}}
                         </div>
                     </div>
                 </div>
