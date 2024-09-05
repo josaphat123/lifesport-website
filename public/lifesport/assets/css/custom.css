@@ -155,3 +155,20 @@
     font-weight: 800;
     font-style: normal;
 }
+
+.lifesport-foot{
+    font-size: 20px;
+    color: #FFFF;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.lifesport-foot:hover{
+    color: #dedede;
+}
+
+
+.footer-bottom.life{
+    background: linear-gradient(80deg, #a95212, #833903) !important;
+}

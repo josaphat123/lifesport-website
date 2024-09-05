@@ -615,7 +615,7 @@
                             </li>
 
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                <a id="pagesMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Gallery</a>
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Galerie</a>
                             </li>
                             <!--about end-->
 

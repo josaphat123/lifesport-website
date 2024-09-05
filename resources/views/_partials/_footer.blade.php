@@ -1,18 +1,18 @@
 <footer class="footer-section">
         <!--footer top start-->
-        <div class="footer-top gradient-bg">
+        <div class="footer-top" style="background: url('lifesport/assets/img/img-fond/img-4.jpg')no-repeat center center / cover" >
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="row footer-top-wrap">
                             <div class="col-12">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">SECURED BY</h4>
+                                    <h4 class="text-white">BOOSTEZ VOTRE VISIBILITE !</h4>
                                     <ul class="list-inline security-icon-list">
-                                        <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/mcafee-logo.png') }}" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/norton-logo.png') }}" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/logo/logo-circle.png') }}" width="130" alt="security" class="img-fluid foot-logo" /></li>
+                                        {{-- <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/norton-logo.png') }}" width="110" alt="security" class="img-fluid" /></li>
                                         <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/accredited-logo.png') }}" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/secured-logo.png') }}" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="{{ asset('lifesport/assets/img/secured-logo.png') }}" width="110" alt="security" class="img-fluid" /></li> --}}
                                     </ul>
                                 </div>
                             </div>
@@ -22,44 +22,38 @@
                         <div class="row footer-top-wrap">
                             <div class="col-md-3 col-sm-6">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">PRODUCTS</h4>
+                                    <h4 class="text-white">LIFESPORT</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">WordPress Hosting</a>
+                                            <a class="nav-link" href="{{ route('index') }}">Accueil</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Shared Hosting</a>
+                                            <a class="nav-link" href="#">Actu-Foot</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Virtual Private Servers</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Dedicated Servers</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Domain Names</a>
+                                            <a class="nav-link" href="#">Galerie</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">COMPANY</h4>
+                                    <h4 class="text-white">SERVICES</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="#">Publicités</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Affiliates</a>
+                                            <a class="nav-link" href="#">Community Management</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Blog</a>
+                                            <a class="nav-link" href="#">Developpement d'Appli</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Careers</a>
+                                            <a class="nav-link" href="#">Production Multimédia</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Community</a>
+                                            <a class="nav-link" href="#">Coaching &amp; Formation</a>
                                         </li>
                                     </ul>
 
@@ -67,22 +61,22 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">LEGAL</h4>
+                                    <h4 class="text-white">Médias Sociaux</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Legal Information</a>
+                                            <a class="nav-link" target="_BLANK" href="https://www.tiktok.com/@lifes_sport">TikTok</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Privacy Policy</a>
+                                            <a class="nav-link" target="_BLANK" href="https://www.facebook.com/eLifeSport">Facebook</a>
                                         </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Report Abuse</a>
+                                                <a class="nav-link" target="_BLANK" href="https://www.youtube.com/@LIFE__SPORT">YouTube</a>
                                             </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Terms of Service</a>
+                                            <a class="nav-link" target="_BLANK" href="https://www.instagram.com/llife_sport?igsh=MTUwYmZvbms5NDhueQ%3D%3D&utm_source=qr">Instagram</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">WHOIS Lookup</a>
+                                            <a class="nav-link" target="_BLANK" href="https://www.threads.net/@llife_sport?xmt=AQGzpWum1ro2fG9aW7UZTiaPu1E4ukNoDuLF8jodmfxgAkA">Threads</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -92,19 +86,19 @@
                                     <h4 class="text-white">SUPPORT</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="#">Qui Sommes-Nous ?</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Knowledge Base</a>
+                                            <a class="nav-link" href="#">Contactez-Nous</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Forums</a>
+                                            <a class="nav-link" href="#">Consultation Gratuite</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">System Status</a>
+                                            <a class="nav-link" href="#">Obtenir -75% Réduction</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Support Team</a>
+                                            <a class="nav-link" href="#">FAQ</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -117,12 +111,12 @@
         <!--footer top end-->
 
         <!--footer copyright start-->
-        <div class="footer-bottom gray-light-bg py-3">
+        <div class="footer-bottom life py-3">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
                         <p class="copyright-text pb-0 mb-0">Copyrights © 2024. Tout droits reservés par
-                            <a href="{{ route('index') }}" target="">LiFeSport</a>
+                            <a href="{{ route('index') }}" class="lifesport-foot" target="">LiFeSport</a>
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">

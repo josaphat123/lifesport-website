@@ -2,7 +2,7 @@
 Template Name: Lifesport
 Description: LifeSport est une Web TV Sportive et une Entreprise exercice de les domaines de Publicités, Community Management, Placement de produit et Developpement d'applications Web/Mobile
 Version: 1.0 
-Author: #fd7e14--   ed6a03 af5e16 #035ded .outline-btn
+Author: #fd7e14--   ed6a03 af5e16 #035ded copyright-text
 =======================*/  
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -55856,9 +55856,11 @@ button.scroll-top:focus {
 
 /* line 4089, src/assets/scss/custom/_style.scss */
 .copyright-text {
-  font-size: 14px;
-  font-weight: 500;
-  font-family: Poppins, sans-serif;
+  color: #f0a700;
+  font-family: "Salsa", cursive;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
 }
 
 /* line 4095, src/assets/scss/custom/_style.scss */
