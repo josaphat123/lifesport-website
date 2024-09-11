@@ -105,15 +105,15 @@
         <!--domain name block end-->
 
         <!--feature section start-->
-            @include('_partials.about-us')
+            @include('_partials._about-us')
         <!--feature section end-->
 
         <!--promo-section section start-->
-            @include('_partials.boost-services')
+            @include('_partials._boost-services')
         <!--promo-section section end-->
 
         <!--services section start-->
-            @include('_partials.services')
+            @include('_partials._services')
         <!--services section end-->
 
         <!--call to action section start-->
@@ -140,11 +140,11 @@
         <!--call to action section end-->
 
         <!--pricing with switch section start-->
-            @include('_partials.price-packs')
+            @include('_partials._price-packs')
         <!--pricing with switch section end-->
 
         <!--feature section start-->
-            @include('_partials.why-choose')
+            @include('_partials._why-choose')
         <!--feature section end-->
 
         <!--call to action new style start-->
@@ -169,7 +169,7 @@
         <!--call to action new style end-->
 
         <!--meet our team carousel style start-->
-            @include('_partials.teams')
+            @include('_partials._teams')
         <!--meet our team carousel style end-->
 
 
@@ -183,7 +183,7 @@
                             <h2>Vidéos Populaires</h2>
                             <p>C'est pourquoi ensemble disons "<span class="lifesport-name">LIFESPORT</span>"
                             <br>
-                            <span class="lifesport-slogan">"Parce la vie est un Sport..."</span></p>
+                            <span class="lifesport-slogan">"Parce que la vie est un Sport..."</span></p>
                         </div>
                     </div>
                 </div>
@@ -255,6 +255,6 @@
 
 
         <!--faq section start-->
-        @include('_partials.faq')
+        @include('_partials._faq')
         <!--faq section end-->
 @endsection
