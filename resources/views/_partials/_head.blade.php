@@ -7,6 +7,8 @@
     <meta name="description" content="LifeSport est une Web TV Sportive et une Entreprise exercice de les domaines de Publicités, Community Management, Placement de produit et Developpement d'applications Web/Mobile">
     <meta name="author" content="ThemeTags">
 
+    <meta name="google-adsense-account" content="ca-pub-2396734178765345">
+
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="" /> <!-- website name -->
     <meta property="og:site" content="" /> <!-- website link -->
