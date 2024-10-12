@@ -47,7 +47,7 @@
                                     <div class="single-domain">
                                         <img src="{{ asset('lifesport/assets/img/social-networks/tiktok.svg') }}" alt="domain" alt="TikTok" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">+930<span
+                                            <h6 class="sell-price">+970<span
                                                     class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@
                                     <div class="single-domain">
                                         <img src="{{ asset('lifesport/assets/img/social-networks/facebook.svg') }}" alt="domain" alt="Facebook" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">+130<span
+                                            <h6 class="sell-price">+205<span
                                                 class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
@@ -69,7 +69,7 @@
                                     <div class="single-domain">
                                         <img src="{{ asset('lifesport/assets/img/social-networks/youtube.svg') }}" alt="domain" alt="YouTube" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">+90<span
+                                            <h6 class="sell-price">+100<span
                                                 class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@
                                     <div class="single-domain">
                                         <img src="{{ asset('lifesport/assets/img/social-networks/instagram.svg') }}" alt="domain" alt="Instagram" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">+70<span
+                                            <h6 class="sell-price">+75<span
                                                     class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@
                                     <div class="single-domain">
                                         <img src="{{ asset('lifesport/assets/img/social-networks/threads.svg') }}" alt="domain" alt="Threads" class="img-fluid"/>
                                         <div class="domain-price">
-                                            <h6 class="sell-price">+10<span
+                                            <h6 class="sell-price">+13<span
                                                     class="badge badge-danger text-uppercase">K</span></h6>
                                         </div>
                                     </div>
